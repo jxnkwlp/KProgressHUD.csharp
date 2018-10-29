@@ -26,6 +26,1536 @@ namespace Sample
 		
 		public static void UpdateIdValues()
 		{
+			global::KProgressHUDLib.Resource.Animation.abc_fade_in = global::Sample.Resource.Animation.abc_fade_in;
+			global::KProgressHUDLib.Resource.Animation.abc_fade_out = global::Sample.Resource.Animation.abc_fade_out;
+			global::KProgressHUDLib.Resource.Animation.abc_grow_fade_in_from_bottom = global::Sample.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::KProgressHUDLib.Resource.Animation.abc_popup_enter = global::Sample.Resource.Animation.abc_popup_enter;
+			global::KProgressHUDLib.Resource.Animation.abc_popup_exit = global::Sample.Resource.Animation.abc_popup_exit;
+			global::KProgressHUDLib.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Sample.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::KProgressHUDLib.Resource.Animation.abc_slide_in_bottom = global::Sample.Resource.Animation.abc_slide_in_bottom;
+			global::KProgressHUDLib.Resource.Animation.abc_slide_in_top = global::Sample.Resource.Animation.abc_slide_in_top;
+			global::KProgressHUDLib.Resource.Animation.abc_slide_out_bottom = global::Sample.Resource.Animation.abc_slide_out_bottom;
+			global::KProgressHUDLib.Resource.Animation.abc_slide_out_top = global::Sample.Resource.Animation.abc_slide_out_top;
+			global::KProgressHUDLib.Resource.Animation.tooltip_enter = global::Sample.Resource.Animation.tooltip_enter;
+			global::KProgressHUDLib.Resource.Animation.tooltip_exit = global::Sample.Resource.Animation.tooltip_exit;
+			global::KProgressHUDLib.Resource.Attribute.actionBarDivider = global::Sample.Resource.Attribute.actionBarDivider;
+			global::KProgressHUDLib.Resource.Attribute.actionBarItemBackground = global::Sample.Resource.Attribute.actionBarItemBackground;
+			global::KProgressHUDLib.Resource.Attribute.actionBarPopupTheme = global::Sample.Resource.Attribute.actionBarPopupTheme;
+			global::KProgressHUDLib.Resource.Attribute.actionBarSize = global::Sample.Resource.Attribute.actionBarSize;
+			global::KProgressHUDLib.Resource.Attribute.actionBarSplitStyle = global::Sample.Resource.Attribute.actionBarSplitStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionBarStyle = global::Sample.Resource.Attribute.actionBarStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionBarTabBarStyle = global::Sample.Resource.Attribute.actionBarTabBarStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionBarTabStyle = global::Sample.Resource.Attribute.actionBarTabStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionBarTabTextStyle = global::Sample.Resource.Attribute.actionBarTabTextStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionBarTheme = global::Sample.Resource.Attribute.actionBarTheme;
+			global::KProgressHUDLib.Resource.Attribute.actionBarWidgetTheme = global::Sample.Resource.Attribute.actionBarWidgetTheme;
+			global::KProgressHUDLib.Resource.Attribute.actionButtonStyle = global::Sample.Resource.Attribute.actionButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionDropDownStyle = global::Sample.Resource.Attribute.actionDropDownStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionLayout = global::Sample.Resource.Attribute.actionLayout;
+			global::KProgressHUDLib.Resource.Attribute.actionMenuTextAppearance = global::Sample.Resource.Attribute.actionMenuTextAppearance;
+			global::KProgressHUDLib.Resource.Attribute.actionMenuTextColor = global::Sample.Resource.Attribute.actionMenuTextColor;
+			global::KProgressHUDLib.Resource.Attribute.actionModeBackground = global::Sample.Resource.Attribute.actionModeBackground;
+			global::KProgressHUDLib.Resource.Attribute.actionModeCloseButtonStyle = global::Sample.Resource.Attribute.actionModeCloseButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionModeCloseDrawable = global::Sample.Resource.Attribute.actionModeCloseDrawable;
+			global::KProgressHUDLib.Resource.Attribute.actionModeCopyDrawable = global::Sample.Resource.Attribute.actionModeCopyDrawable;
+			global::KProgressHUDLib.Resource.Attribute.actionModeCutDrawable = global::Sample.Resource.Attribute.actionModeCutDrawable;
+			global::KProgressHUDLib.Resource.Attribute.actionModeFindDrawable = global::Sample.Resource.Attribute.actionModeFindDrawable;
+			global::KProgressHUDLib.Resource.Attribute.actionModePasteDrawable = global::Sample.Resource.Attribute.actionModePasteDrawable;
+			global::KProgressHUDLib.Resource.Attribute.actionModePopupWindowStyle = global::Sample.Resource.Attribute.actionModePopupWindowStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionModeSelectAllDrawable = global::Sample.Resource.Attribute.actionModeSelectAllDrawable;
+			global::KProgressHUDLib.Resource.Attribute.actionModeShareDrawable = global::Sample.Resource.Attribute.actionModeShareDrawable;
+			global::KProgressHUDLib.Resource.Attribute.actionModeSplitBackground = global::Sample.Resource.Attribute.actionModeSplitBackground;
+			global::KProgressHUDLib.Resource.Attribute.actionModeStyle = global::Sample.Resource.Attribute.actionModeStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionModeWebSearchDrawable = global::Sample.Resource.Attribute.actionModeWebSearchDrawable;
+			global::KProgressHUDLib.Resource.Attribute.actionOverflowButtonStyle = global::Sample.Resource.Attribute.actionOverflowButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionOverflowMenuStyle = global::Sample.Resource.Attribute.actionOverflowMenuStyle;
+			global::KProgressHUDLib.Resource.Attribute.actionProviderClass = global::Sample.Resource.Attribute.actionProviderClass;
+			global::KProgressHUDLib.Resource.Attribute.actionViewClass = global::Sample.Resource.Attribute.actionViewClass;
+			global::KProgressHUDLib.Resource.Attribute.activityChooserViewStyle = global::Sample.Resource.Attribute.activityChooserViewStyle;
+			global::KProgressHUDLib.Resource.Attribute.alertDialogButtonGroupStyle = global::Sample.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::KProgressHUDLib.Resource.Attribute.alertDialogCenterButtons = global::Sample.Resource.Attribute.alertDialogCenterButtons;
+			global::KProgressHUDLib.Resource.Attribute.alertDialogStyle = global::Sample.Resource.Attribute.alertDialogStyle;
+			global::KProgressHUDLib.Resource.Attribute.alertDialogTheme = global::Sample.Resource.Attribute.alertDialogTheme;
+			global::KProgressHUDLib.Resource.Attribute.allowStacking = global::Sample.Resource.Attribute.allowStacking;
+			global::KProgressHUDLib.Resource.Attribute.alpha = global::Sample.Resource.Attribute.alpha;
+			global::KProgressHUDLib.Resource.Attribute.alphabeticModifiers = global::Sample.Resource.Attribute.alphabeticModifiers;
+			global::KProgressHUDLib.Resource.Attribute.arrowHeadLength = global::Sample.Resource.Attribute.arrowHeadLength;
+			global::KProgressHUDLib.Resource.Attribute.arrowShaftLength = global::Sample.Resource.Attribute.arrowShaftLength;
+			global::KProgressHUDLib.Resource.Attribute.autoCompleteTextViewStyle = global::Sample.Resource.Attribute.autoCompleteTextViewStyle;
+			global::KProgressHUDLib.Resource.Attribute.autoSizeMaxTextSize = global::Sample.Resource.Attribute.autoSizeMaxTextSize;
+			global::KProgressHUDLib.Resource.Attribute.autoSizeMinTextSize = global::Sample.Resource.Attribute.autoSizeMinTextSize;
+			global::KProgressHUDLib.Resource.Attribute.autoSizePresetSizes = global::Sample.Resource.Attribute.autoSizePresetSizes;
+			global::KProgressHUDLib.Resource.Attribute.autoSizeStepGranularity = global::Sample.Resource.Attribute.autoSizeStepGranularity;
+			global::KProgressHUDLib.Resource.Attribute.autoSizeTextType = global::Sample.Resource.Attribute.autoSizeTextType;
+			global::KProgressHUDLib.Resource.Attribute.background = global::Sample.Resource.Attribute.background;
+			global::KProgressHUDLib.Resource.Attribute.backgroundSplit = global::Sample.Resource.Attribute.backgroundSplit;
+			global::KProgressHUDLib.Resource.Attribute.backgroundStacked = global::Sample.Resource.Attribute.backgroundStacked;
+			global::KProgressHUDLib.Resource.Attribute.backgroundTint = global::Sample.Resource.Attribute.backgroundTint;
+			global::KProgressHUDLib.Resource.Attribute.backgroundTintMode = global::Sample.Resource.Attribute.backgroundTintMode;
+			global::KProgressHUDLib.Resource.Attribute.barLength = global::Sample.Resource.Attribute.barLength;
+			global::KProgressHUDLib.Resource.Attribute.borderlessButtonStyle = global::Sample.Resource.Attribute.borderlessButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.buttonBarButtonStyle = global::Sample.Resource.Attribute.buttonBarButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.buttonBarNegativeButtonStyle = global::Sample.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.buttonBarNeutralButtonStyle = global::Sample.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.buttonBarPositiveButtonStyle = global::Sample.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.buttonBarStyle = global::Sample.Resource.Attribute.buttonBarStyle;
+			global::KProgressHUDLib.Resource.Attribute.buttonGravity = global::Sample.Resource.Attribute.buttonGravity;
+			global::KProgressHUDLib.Resource.Attribute.buttonPanelSideLayout = global::Sample.Resource.Attribute.buttonPanelSideLayout;
+			global::KProgressHUDLib.Resource.Attribute.buttonStyle = global::Sample.Resource.Attribute.buttonStyle;
+			global::KProgressHUDLib.Resource.Attribute.buttonStyleSmall = global::Sample.Resource.Attribute.buttonStyleSmall;
+			global::KProgressHUDLib.Resource.Attribute.buttonTint = global::Sample.Resource.Attribute.buttonTint;
+			global::KProgressHUDLib.Resource.Attribute.buttonTintMode = global::Sample.Resource.Attribute.buttonTintMode;
+			global::KProgressHUDLib.Resource.Attribute.checkboxStyle = global::Sample.Resource.Attribute.checkboxStyle;
+			global::KProgressHUDLib.Resource.Attribute.checkedTextViewStyle = global::Sample.Resource.Attribute.checkedTextViewStyle;
+			global::KProgressHUDLib.Resource.Attribute.closeIcon = global::Sample.Resource.Attribute.closeIcon;
+			global::KProgressHUDLib.Resource.Attribute.closeItemLayout = global::Sample.Resource.Attribute.closeItemLayout;
+			global::KProgressHUDLib.Resource.Attribute.collapseContentDescription = global::Sample.Resource.Attribute.collapseContentDescription;
+			global::KProgressHUDLib.Resource.Attribute.collapseIcon = global::Sample.Resource.Attribute.collapseIcon;
+			global::KProgressHUDLib.Resource.Attribute.color = global::Sample.Resource.Attribute.color;
+			global::KProgressHUDLib.Resource.Attribute.colorAccent = global::Sample.Resource.Attribute.colorAccent;
+			global::KProgressHUDLib.Resource.Attribute.colorBackgroundFloating = global::Sample.Resource.Attribute.colorBackgroundFloating;
+			global::KProgressHUDLib.Resource.Attribute.colorButtonNormal = global::Sample.Resource.Attribute.colorButtonNormal;
+			global::KProgressHUDLib.Resource.Attribute.colorControlActivated = global::Sample.Resource.Attribute.colorControlActivated;
+			global::KProgressHUDLib.Resource.Attribute.colorControlHighlight = global::Sample.Resource.Attribute.colorControlHighlight;
+			global::KProgressHUDLib.Resource.Attribute.colorControlNormal = global::Sample.Resource.Attribute.colorControlNormal;
+			global::KProgressHUDLib.Resource.Attribute.colorError = global::Sample.Resource.Attribute.colorError;
+			global::KProgressHUDLib.Resource.Attribute.colorPrimary = global::Sample.Resource.Attribute.colorPrimary;
+			global::KProgressHUDLib.Resource.Attribute.colorPrimaryDark = global::Sample.Resource.Attribute.colorPrimaryDark;
+			global::KProgressHUDLib.Resource.Attribute.colorSwitchThumbNormal = global::Sample.Resource.Attribute.colorSwitchThumbNormal;
+			global::KProgressHUDLib.Resource.Attribute.commitIcon = global::Sample.Resource.Attribute.commitIcon;
+			global::KProgressHUDLib.Resource.Attribute.contentDescription = global::Sample.Resource.Attribute.contentDescription;
+			global::KProgressHUDLib.Resource.Attribute.contentInsetEnd = global::Sample.Resource.Attribute.contentInsetEnd;
+			global::KProgressHUDLib.Resource.Attribute.contentInsetEndWithActions = global::Sample.Resource.Attribute.contentInsetEndWithActions;
+			global::KProgressHUDLib.Resource.Attribute.contentInsetLeft = global::Sample.Resource.Attribute.contentInsetLeft;
+			global::KProgressHUDLib.Resource.Attribute.contentInsetRight = global::Sample.Resource.Attribute.contentInsetRight;
+			global::KProgressHUDLib.Resource.Attribute.contentInsetStart = global::Sample.Resource.Attribute.contentInsetStart;
+			global::KProgressHUDLib.Resource.Attribute.contentInsetStartWithNavigation = global::Sample.Resource.Attribute.contentInsetStartWithNavigation;
+			global::KProgressHUDLib.Resource.Attribute.controlBackground = global::Sample.Resource.Attribute.controlBackground;
+			global::KProgressHUDLib.Resource.Attribute.customNavigationLayout = global::Sample.Resource.Attribute.customNavigationLayout;
+			global::KProgressHUDLib.Resource.Attribute.defaultQueryHint = global::Sample.Resource.Attribute.defaultQueryHint;
+			global::KProgressHUDLib.Resource.Attribute.dialogPreferredPadding = global::Sample.Resource.Attribute.dialogPreferredPadding;
+			global::KProgressHUDLib.Resource.Attribute.dialogTheme = global::Sample.Resource.Attribute.dialogTheme;
+			global::KProgressHUDLib.Resource.Attribute.displayOptions = global::Sample.Resource.Attribute.displayOptions;
+			global::KProgressHUDLib.Resource.Attribute.divider = global::Sample.Resource.Attribute.divider;
+			global::KProgressHUDLib.Resource.Attribute.dividerHorizontal = global::Sample.Resource.Attribute.dividerHorizontal;
+			global::KProgressHUDLib.Resource.Attribute.dividerPadding = global::Sample.Resource.Attribute.dividerPadding;
+			global::KProgressHUDLib.Resource.Attribute.dividerVertical = global::Sample.Resource.Attribute.dividerVertical;
+			global::KProgressHUDLib.Resource.Attribute.drawableSize = global::Sample.Resource.Attribute.drawableSize;
+			global::KProgressHUDLib.Resource.Attribute.drawerArrowStyle = global::Sample.Resource.Attribute.drawerArrowStyle;
+			global::KProgressHUDLib.Resource.Attribute.dropDownListViewStyle = global::Sample.Resource.Attribute.dropDownListViewStyle;
+			global::KProgressHUDLib.Resource.Attribute.dropdownListPreferredItemHeight = global::Sample.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::KProgressHUDLib.Resource.Attribute.editTextBackground = global::Sample.Resource.Attribute.editTextBackground;
+			global::KProgressHUDLib.Resource.Attribute.editTextColor = global::Sample.Resource.Attribute.editTextColor;
+			global::KProgressHUDLib.Resource.Attribute.editTextStyle = global::Sample.Resource.Attribute.editTextStyle;
+			global::KProgressHUDLib.Resource.Attribute.elevation = global::Sample.Resource.Attribute.elevation;
+			global::KProgressHUDLib.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Sample.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::KProgressHUDLib.Resource.Attribute.font = global::Sample.Resource.Attribute.font;
+			global::KProgressHUDLib.Resource.Attribute.fontFamily = global::Sample.Resource.Attribute.fontFamily;
+			global::KProgressHUDLib.Resource.Attribute.fontProviderAuthority = global::Sample.Resource.Attribute.fontProviderAuthority;
+			global::KProgressHUDLib.Resource.Attribute.fontProviderCerts = global::Sample.Resource.Attribute.fontProviderCerts;
+			global::KProgressHUDLib.Resource.Attribute.fontProviderFetchStrategy = global::Sample.Resource.Attribute.fontProviderFetchStrategy;
+			global::KProgressHUDLib.Resource.Attribute.fontProviderFetchTimeout = global::Sample.Resource.Attribute.fontProviderFetchTimeout;
+			global::KProgressHUDLib.Resource.Attribute.fontProviderPackage = global::Sample.Resource.Attribute.fontProviderPackage;
+			global::KProgressHUDLib.Resource.Attribute.fontProviderQuery = global::Sample.Resource.Attribute.fontProviderQuery;
+			global::KProgressHUDLib.Resource.Attribute.fontStyle = global::Sample.Resource.Attribute.fontStyle;
+			global::KProgressHUDLib.Resource.Attribute.fontWeight = global::Sample.Resource.Attribute.fontWeight;
+			global::KProgressHUDLib.Resource.Attribute.gapBetweenBars = global::Sample.Resource.Attribute.gapBetweenBars;
+			global::KProgressHUDLib.Resource.Attribute.goIcon = global::Sample.Resource.Attribute.goIcon;
+			global::KProgressHUDLib.Resource.Attribute.height = global::Sample.Resource.Attribute.height;
+			global::KProgressHUDLib.Resource.Attribute.hideOnContentScroll = global::Sample.Resource.Attribute.hideOnContentScroll;
+			global::KProgressHUDLib.Resource.Attribute.homeAsUpIndicator = global::Sample.Resource.Attribute.homeAsUpIndicator;
+			global::KProgressHUDLib.Resource.Attribute.homeLayout = global::Sample.Resource.Attribute.homeLayout;
+			global::KProgressHUDLib.Resource.Attribute.icon = global::Sample.Resource.Attribute.icon;
+			global::KProgressHUDLib.Resource.Attribute.iconTint = global::Sample.Resource.Attribute.iconTint;
+			global::KProgressHUDLib.Resource.Attribute.iconTintMode = global::Sample.Resource.Attribute.iconTintMode;
+			global::KProgressHUDLib.Resource.Attribute.iconifiedByDefault = global::Sample.Resource.Attribute.iconifiedByDefault;
+			global::KProgressHUDLib.Resource.Attribute.imageButtonStyle = global::Sample.Resource.Attribute.imageButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.indeterminateProgressStyle = global::Sample.Resource.Attribute.indeterminateProgressStyle;
+			global::KProgressHUDLib.Resource.Attribute.initialActivityCount = global::Sample.Resource.Attribute.initialActivityCount;
+			global::KProgressHUDLib.Resource.Attribute.isLightTheme = global::Sample.Resource.Attribute.isLightTheme;
+			global::KProgressHUDLib.Resource.Attribute.itemPadding = global::Sample.Resource.Attribute.itemPadding;
+			global::KProgressHUDLib.Resource.Attribute.layout = global::Sample.Resource.Attribute.layout;
+			global::KProgressHUDLib.Resource.Attribute.listChoiceBackgroundIndicator = global::Sample.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::KProgressHUDLib.Resource.Attribute.listDividerAlertDialog = global::Sample.Resource.Attribute.listDividerAlertDialog;
+			global::KProgressHUDLib.Resource.Attribute.listItemLayout = global::Sample.Resource.Attribute.listItemLayout;
+			global::KProgressHUDLib.Resource.Attribute.listLayout = global::Sample.Resource.Attribute.listLayout;
+			global::KProgressHUDLib.Resource.Attribute.listMenuViewStyle = global::Sample.Resource.Attribute.listMenuViewStyle;
+			global::KProgressHUDLib.Resource.Attribute.listPopupWindowStyle = global::Sample.Resource.Attribute.listPopupWindowStyle;
+			global::KProgressHUDLib.Resource.Attribute.listPreferredItemHeight = global::Sample.Resource.Attribute.listPreferredItemHeight;
+			global::KProgressHUDLib.Resource.Attribute.listPreferredItemHeightLarge = global::Sample.Resource.Attribute.listPreferredItemHeightLarge;
+			global::KProgressHUDLib.Resource.Attribute.listPreferredItemHeightSmall = global::Sample.Resource.Attribute.listPreferredItemHeightSmall;
+			global::KProgressHUDLib.Resource.Attribute.listPreferredItemPaddingLeft = global::Sample.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::KProgressHUDLib.Resource.Attribute.listPreferredItemPaddingRight = global::Sample.Resource.Attribute.listPreferredItemPaddingRight;
+			global::KProgressHUDLib.Resource.Attribute.logo = global::Sample.Resource.Attribute.logo;
+			global::KProgressHUDLib.Resource.Attribute.logoDescription = global::Sample.Resource.Attribute.logoDescription;
+			global::KProgressHUDLib.Resource.Attribute.maxButtonHeight = global::Sample.Resource.Attribute.maxButtonHeight;
+			global::KProgressHUDLib.Resource.Attribute.measureWithLargestChild = global::Sample.Resource.Attribute.measureWithLargestChild;
+			global::KProgressHUDLib.Resource.Attribute.multiChoiceItemLayout = global::Sample.Resource.Attribute.multiChoiceItemLayout;
+			global::KProgressHUDLib.Resource.Attribute.navigationContentDescription = global::Sample.Resource.Attribute.navigationContentDescription;
+			global::KProgressHUDLib.Resource.Attribute.navigationIcon = global::Sample.Resource.Attribute.navigationIcon;
+			global::KProgressHUDLib.Resource.Attribute.navigationMode = global::Sample.Resource.Attribute.navigationMode;
+			global::KProgressHUDLib.Resource.Attribute.numericModifiers = global::Sample.Resource.Attribute.numericModifiers;
+			global::KProgressHUDLib.Resource.Attribute.overlapAnchor = global::Sample.Resource.Attribute.overlapAnchor;
+			global::KProgressHUDLib.Resource.Attribute.paddingBottomNoButtons = global::Sample.Resource.Attribute.paddingBottomNoButtons;
+			global::KProgressHUDLib.Resource.Attribute.paddingEnd = global::Sample.Resource.Attribute.paddingEnd;
+			global::KProgressHUDLib.Resource.Attribute.paddingStart = global::Sample.Resource.Attribute.paddingStart;
+			global::KProgressHUDLib.Resource.Attribute.paddingTopNoTitle = global::Sample.Resource.Attribute.paddingTopNoTitle;
+			global::KProgressHUDLib.Resource.Attribute.panelBackground = global::Sample.Resource.Attribute.panelBackground;
+			global::KProgressHUDLib.Resource.Attribute.panelMenuListTheme = global::Sample.Resource.Attribute.panelMenuListTheme;
+			global::KProgressHUDLib.Resource.Attribute.panelMenuListWidth = global::Sample.Resource.Attribute.panelMenuListWidth;
+			global::KProgressHUDLib.Resource.Attribute.popupMenuStyle = global::Sample.Resource.Attribute.popupMenuStyle;
+			global::KProgressHUDLib.Resource.Attribute.popupTheme = global::Sample.Resource.Attribute.popupTheme;
+			global::KProgressHUDLib.Resource.Attribute.popupWindowStyle = global::Sample.Resource.Attribute.popupWindowStyle;
+			global::KProgressHUDLib.Resource.Attribute.preserveIconSpacing = global::Sample.Resource.Attribute.preserveIconSpacing;
+			global::KProgressHUDLib.Resource.Attribute.progressBarPadding = global::Sample.Resource.Attribute.progressBarPadding;
+			global::KProgressHUDLib.Resource.Attribute.progressBarStyle = global::Sample.Resource.Attribute.progressBarStyle;
+			global::KProgressHUDLib.Resource.Attribute.queryBackground = global::Sample.Resource.Attribute.queryBackground;
+			global::KProgressHUDLib.Resource.Attribute.queryHint = global::Sample.Resource.Attribute.queryHint;
+			global::KProgressHUDLib.Resource.Attribute.radioButtonStyle = global::Sample.Resource.Attribute.radioButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.ratingBarStyle = global::Sample.Resource.Attribute.ratingBarStyle;
+			global::KProgressHUDLib.Resource.Attribute.ratingBarStyleIndicator = global::Sample.Resource.Attribute.ratingBarStyleIndicator;
+			global::KProgressHUDLib.Resource.Attribute.ratingBarStyleSmall = global::Sample.Resource.Attribute.ratingBarStyleSmall;
+			global::KProgressHUDLib.Resource.Attribute.searchHintIcon = global::Sample.Resource.Attribute.searchHintIcon;
+			global::KProgressHUDLib.Resource.Attribute.searchIcon = global::Sample.Resource.Attribute.searchIcon;
+			global::KProgressHUDLib.Resource.Attribute.searchViewStyle = global::Sample.Resource.Attribute.searchViewStyle;
+			global::KProgressHUDLib.Resource.Attribute.seekBarStyle = global::Sample.Resource.Attribute.seekBarStyle;
+			global::KProgressHUDLib.Resource.Attribute.selectableItemBackground = global::Sample.Resource.Attribute.selectableItemBackground;
+			global::KProgressHUDLib.Resource.Attribute.selectableItemBackgroundBorderless = global::Sample.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::KProgressHUDLib.Resource.Attribute.showAsAction = global::Sample.Resource.Attribute.showAsAction;
+			global::KProgressHUDLib.Resource.Attribute.showDividers = global::Sample.Resource.Attribute.showDividers;
+			global::KProgressHUDLib.Resource.Attribute.showText = global::Sample.Resource.Attribute.showText;
+			global::KProgressHUDLib.Resource.Attribute.showTitle = global::Sample.Resource.Attribute.showTitle;
+			global::KProgressHUDLib.Resource.Attribute.singleChoiceItemLayout = global::Sample.Resource.Attribute.singleChoiceItemLayout;
+			global::KProgressHUDLib.Resource.Attribute.spinBars = global::Sample.Resource.Attribute.spinBars;
+			global::KProgressHUDLib.Resource.Attribute.spinnerDropDownItemStyle = global::Sample.Resource.Attribute.spinnerDropDownItemStyle;
+			global::KProgressHUDLib.Resource.Attribute.spinnerStyle = global::Sample.Resource.Attribute.spinnerStyle;
+			global::KProgressHUDLib.Resource.Attribute.splitTrack = global::Sample.Resource.Attribute.splitTrack;
+			global::KProgressHUDLib.Resource.Attribute.srcCompat = global::Sample.Resource.Attribute.srcCompat;
+			global::KProgressHUDLib.Resource.Attribute.state_above_anchor = global::Sample.Resource.Attribute.state_above_anchor;
+			global::KProgressHUDLib.Resource.Attribute.subMenuArrow = global::Sample.Resource.Attribute.subMenuArrow;
+			global::KProgressHUDLib.Resource.Attribute.submitBackground = global::Sample.Resource.Attribute.submitBackground;
+			global::KProgressHUDLib.Resource.Attribute.subtitle = global::Sample.Resource.Attribute.subtitle;
+			global::KProgressHUDLib.Resource.Attribute.subtitleTextAppearance = global::Sample.Resource.Attribute.subtitleTextAppearance;
+			global::KProgressHUDLib.Resource.Attribute.subtitleTextColor = global::Sample.Resource.Attribute.subtitleTextColor;
+			global::KProgressHUDLib.Resource.Attribute.subtitleTextStyle = global::Sample.Resource.Attribute.subtitleTextStyle;
+			global::KProgressHUDLib.Resource.Attribute.suggestionRowLayout = global::Sample.Resource.Attribute.suggestionRowLayout;
+			global::KProgressHUDLib.Resource.Attribute.switchMinWidth = global::Sample.Resource.Attribute.switchMinWidth;
+			global::KProgressHUDLib.Resource.Attribute.switchPadding = global::Sample.Resource.Attribute.switchPadding;
+			global::KProgressHUDLib.Resource.Attribute.switchStyle = global::Sample.Resource.Attribute.switchStyle;
+			global::KProgressHUDLib.Resource.Attribute.switchTextAppearance = global::Sample.Resource.Attribute.switchTextAppearance;
+			global::KProgressHUDLib.Resource.Attribute.textAllCaps = global::Sample.Resource.Attribute.textAllCaps;
+			global::KProgressHUDLib.Resource.Attribute.textAppearanceLargePopupMenu = global::Sample.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::KProgressHUDLib.Resource.Attribute.textAppearanceListItem = global::Sample.Resource.Attribute.textAppearanceListItem;
+			global::KProgressHUDLib.Resource.Attribute.textAppearanceListItemSecondary = global::Sample.Resource.Attribute.textAppearanceListItemSecondary;
+			global::KProgressHUDLib.Resource.Attribute.textAppearanceListItemSmall = global::Sample.Resource.Attribute.textAppearanceListItemSmall;
+			global::KProgressHUDLib.Resource.Attribute.textAppearancePopupMenuHeader = global::Sample.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::KProgressHUDLib.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Sample.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::KProgressHUDLib.Resource.Attribute.textAppearanceSearchResultTitle = global::Sample.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::KProgressHUDLib.Resource.Attribute.textAppearanceSmallPopupMenu = global::Sample.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::KProgressHUDLib.Resource.Attribute.textColorAlertDialogListItem = global::Sample.Resource.Attribute.textColorAlertDialogListItem;
+			global::KProgressHUDLib.Resource.Attribute.textColorSearchUrl = global::Sample.Resource.Attribute.textColorSearchUrl;
+			global::KProgressHUDLib.Resource.Attribute.theme = global::Sample.Resource.Attribute.theme;
+			global::KProgressHUDLib.Resource.Attribute.thickness = global::Sample.Resource.Attribute.thickness;
+			global::KProgressHUDLib.Resource.Attribute.thumbTextPadding = global::Sample.Resource.Attribute.thumbTextPadding;
+			global::KProgressHUDLib.Resource.Attribute.thumbTint = global::Sample.Resource.Attribute.thumbTint;
+			global::KProgressHUDLib.Resource.Attribute.thumbTintMode = global::Sample.Resource.Attribute.thumbTintMode;
+			global::KProgressHUDLib.Resource.Attribute.tickMark = global::Sample.Resource.Attribute.tickMark;
+			global::KProgressHUDLib.Resource.Attribute.tickMarkTint = global::Sample.Resource.Attribute.tickMarkTint;
+			global::KProgressHUDLib.Resource.Attribute.tickMarkTintMode = global::Sample.Resource.Attribute.tickMarkTintMode;
+			global::KProgressHUDLib.Resource.Attribute.tint = global::Sample.Resource.Attribute.tint;
+			global::KProgressHUDLib.Resource.Attribute.tintMode = global::Sample.Resource.Attribute.tintMode;
+			global::KProgressHUDLib.Resource.Attribute.title = global::Sample.Resource.Attribute.title;
+			global::KProgressHUDLib.Resource.Attribute.titleMargin = global::Sample.Resource.Attribute.titleMargin;
+			global::KProgressHUDLib.Resource.Attribute.titleMarginBottom = global::Sample.Resource.Attribute.titleMarginBottom;
+			global::KProgressHUDLib.Resource.Attribute.titleMarginEnd = global::Sample.Resource.Attribute.titleMarginEnd;
+			global::KProgressHUDLib.Resource.Attribute.titleMarginStart = global::Sample.Resource.Attribute.titleMarginStart;
+			global::KProgressHUDLib.Resource.Attribute.titleMarginTop = global::Sample.Resource.Attribute.titleMarginTop;
+			global::KProgressHUDLib.Resource.Attribute.titleMargins = global::Sample.Resource.Attribute.titleMargins;
+			global::KProgressHUDLib.Resource.Attribute.titleTextAppearance = global::Sample.Resource.Attribute.titleTextAppearance;
+			global::KProgressHUDLib.Resource.Attribute.titleTextColor = global::Sample.Resource.Attribute.titleTextColor;
+			global::KProgressHUDLib.Resource.Attribute.titleTextStyle = global::Sample.Resource.Attribute.titleTextStyle;
+			global::KProgressHUDLib.Resource.Attribute.toolbarNavigationButtonStyle = global::Sample.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::KProgressHUDLib.Resource.Attribute.toolbarStyle = global::Sample.Resource.Attribute.toolbarStyle;
+			global::KProgressHUDLib.Resource.Attribute.tooltipForegroundColor = global::Sample.Resource.Attribute.tooltipForegroundColor;
+			global::KProgressHUDLib.Resource.Attribute.tooltipFrameBackground = global::Sample.Resource.Attribute.tooltipFrameBackground;
+			global::KProgressHUDLib.Resource.Attribute.tooltipText = global::Sample.Resource.Attribute.tooltipText;
+			global::KProgressHUDLib.Resource.Attribute.track = global::Sample.Resource.Attribute.track;
+			global::KProgressHUDLib.Resource.Attribute.trackTint = global::Sample.Resource.Attribute.trackTint;
+			global::KProgressHUDLib.Resource.Attribute.trackTintMode = global::Sample.Resource.Attribute.trackTintMode;
+			global::KProgressHUDLib.Resource.Attribute.voiceIcon = global::Sample.Resource.Attribute.voiceIcon;
+			global::KProgressHUDLib.Resource.Attribute.windowActionBar = global::Sample.Resource.Attribute.windowActionBar;
+			global::KProgressHUDLib.Resource.Attribute.windowActionBarOverlay = global::Sample.Resource.Attribute.windowActionBarOverlay;
+			global::KProgressHUDLib.Resource.Attribute.windowActionModeOverlay = global::Sample.Resource.Attribute.windowActionModeOverlay;
+			global::KProgressHUDLib.Resource.Attribute.windowFixedHeightMajor = global::Sample.Resource.Attribute.windowFixedHeightMajor;
+			global::KProgressHUDLib.Resource.Attribute.windowFixedHeightMinor = global::Sample.Resource.Attribute.windowFixedHeightMinor;
+			global::KProgressHUDLib.Resource.Attribute.windowFixedWidthMajor = global::Sample.Resource.Attribute.windowFixedWidthMajor;
+			global::KProgressHUDLib.Resource.Attribute.windowFixedWidthMinor = global::Sample.Resource.Attribute.windowFixedWidthMinor;
+			global::KProgressHUDLib.Resource.Attribute.windowMinWidthMajor = global::Sample.Resource.Attribute.windowMinWidthMajor;
+			global::KProgressHUDLib.Resource.Attribute.windowMinWidthMinor = global::Sample.Resource.Attribute.windowMinWidthMinor;
+			global::KProgressHUDLib.Resource.Attribute.windowNoTitle = global::Sample.Resource.Attribute.windowNoTitle;
+			global::KProgressHUDLib.Resource.Boolean.abc_action_bar_embed_tabs = global::Sample.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::KProgressHUDLib.Resource.Boolean.abc_allow_stacked_button_bar = global::Sample.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::KProgressHUDLib.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Sample.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::KProgressHUDLib.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Sample.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::KProgressHUDLib.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Sample.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::KProgressHUDLib.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Sample.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::KProgressHUDLib.Resource.Color.abc_background_cache_hint_selector_material_light = global::Sample.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::KProgressHUDLib.Resource.Color.abc_btn_colored_borderless_text_material = global::Sample.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::KProgressHUDLib.Resource.Color.abc_btn_colored_text_material = global::Sample.Resource.Color.abc_btn_colored_text_material;
+			global::KProgressHUDLib.Resource.Color.abc_color_highlight_material = global::Sample.Resource.Color.abc_color_highlight_material;
+			global::KProgressHUDLib.Resource.Color.abc_hint_foreground_material_dark = global::Sample.Resource.Color.abc_hint_foreground_material_dark;
+			global::KProgressHUDLib.Resource.Color.abc_hint_foreground_material_light = global::Sample.Resource.Color.abc_hint_foreground_material_light;
+			global::KProgressHUDLib.Resource.Color.abc_input_method_navigation_guard = global::Sample.Resource.Color.abc_input_method_navigation_guard;
+			global::KProgressHUDLib.Resource.Color.abc_primary_text_disable_only_material_dark = global::Sample.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::KProgressHUDLib.Resource.Color.abc_primary_text_disable_only_material_light = global::Sample.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::KProgressHUDLib.Resource.Color.abc_primary_text_material_dark = global::Sample.Resource.Color.abc_primary_text_material_dark;
+			global::KProgressHUDLib.Resource.Color.abc_primary_text_material_light = global::Sample.Resource.Color.abc_primary_text_material_light;
+			global::KProgressHUDLib.Resource.Color.abc_search_url_text = global::Sample.Resource.Color.abc_search_url_text;
+			global::KProgressHUDLib.Resource.Color.abc_search_url_text_normal = global::Sample.Resource.Color.abc_search_url_text_normal;
+			global::KProgressHUDLib.Resource.Color.abc_search_url_text_pressed = global::Sample.Resource.Color.abc_search_url_text_pressed;
+			global::KProgressHUDLib.Resource.Color.abc_search_url_text_selected = global::Sample.Resource.Color.abc_search_url_text_selected;
+			global::KProgressHUDLib.Resource.Color.abc_secondary_text_material_dark = global::Sample.Resource.Color.abc_secondary_text_material_dark;
+			global::KProgressHUDLib.Resource.Color.abc_secondary_text_material_light = global::Sample.Resource.Color.abc_secondary_text_material_light;
+			global::KProgressHUDLib.Resource.Color.abc_tint_btn_checkable = global::Sample.Resource.Color.abc_tint_btn_checkable;
+			global::KProgressHUDLib.Resource.Color.abc_tint_default = global::Sample.Resource.Color.abc_tint_default;
+			global::KProgressHUDLib.Resource.Color.abc_tint_edittext = global::Sample.Resource.Color.abc_tint_edittext;
+			global::KProgressHUDLib.Resource.Color.abc_tint_seek_thumb = global::Sample.Resource.Color.abc_tint_seek_thumb;
+			global::KProgressHUDLib.Resource.Color.abc_tint_spinner = global::Sample.Resource.Color.abc_tint_spinner;
+			global::KProgressHUDLib.Resource.Color.abc_tint_switch_track = global::Sample.Resource.Color.abc_tint_switch_track;
+			global::KProgressHUDLib.Resource.Color.accent_material_dark = global::Sample.Resource.Color.accent_material_dark;
+			global::KProgressHUDLib.Resource.Color.accent_material_light = global::Sample.Resource.Color.accent_material_light;
+			global::KProgressHUDLib.Resource.Color.background_floating_material_dark = global::Sample.Resource.Color.background_floating_material_dark;
+			global::KProgressHUDLib.Resource.Color.background_floating_material_light = global::Sample.Resource.Color.background_floating_material_light;
+			global::KProgressHUDLib.Resource.Color.background_material_dark = global::Sample.Resource.Color.background_material_dark;
+			global::KProgressHUDLib.Resource.Color.background_material_light = global::Sample.Resource.Color.background_material_light;
+			global::KProgressHUDLib.Resource.Color.bright_foreground_disabled_material_dark = global::Sample.Resource.Color.bright_foreground_disabled_material_dark;
+			global::KProgressHUDLib.Resource.Color.bright_foreground_disabled_material_light = global::Sample.Resource.Color.bright_foreground_disabled_material_light;
+			global::KProgressHUDLib.Resource.Color.bright_foreground_inverse_material_dark = global::Sample.Resource.Color.bright_foreground_inverse_material_dark;
+			global::KProgressHUDLib.Resource.Color.bright_foreground_inverse_material_light = global::Sample.Resource.Color.bright_foreground_inverse_material_light;
+			global::KProgressHUDLib.Resource.Color.bright_foreground_material_dark = global::Sample.Resource.Color.bright_foreground_material_dark;
+			global::KProgressHUDLib.Resource.Color.bright_foreground_material_light = global::Sample.Resource.Color.bright_foreground_material_light;
+			global::KProgressHUDLib.Resource.Color.button_material_dark = global::Sample.Resource.Color.button_material_dark;
+			global::KProgressHUDLib.Resource.Color.button_material_light = global::Sample.Resource.Color.button_material_light;
+			global::KProgressHUDLib.Resource.Color.dim_foreground_disabled_material_dark = global::Sample.Resource.Color.dim_foreground_disabled_material_dark;
+			global::KProgressHUDLib.Resource.Color.dim_foreground_disabled_material_light = global::Sample.Resource.Color.dim_foreground_disabled_material_light;
+			global::KProgressHUDLib.Resource.Color.dim_foreground_material_dark = global::Sample.Resource.Color.dim_foreground_material_dark;
+			global::KProgressHUDLib.Resource.Color.dim_foreground_material_light = global::Sample.Resource.Color.dim_foreground_material_light;
+			global::KProgressHUDLib.Resource.Color.error_color_material = global::Sample.Resource.Color.error_color_material;
+			global::KProgressHUDLib.Resource.Color.foreground_material_dark = global::Sample.Resource.Color.foreground_material_dark;
+			global::KProgressHUDLib.Resource.Color.foreground_material_light = global::Sample.Resource.Color.foreground_material_light;
+			global::KProgressHUDLib.Resource.Color.highlighted_text_material_dark = global::Sample.Resource.Color.highlighted_text_material_dark;
+			global::KProgressHUDLib.Resource.Color.highlighted_text_material_light = global::Sample.Resource.Color.highlighted_text_material_light;
+			global::KProgressHUDLib.Resource.Color.kprogresshud_default_color = global::Sample.Resource.Color.kprogresshud_default_color;
+			global::KProgressHUDLib.Resource.Color.kprogresshud_grey_color = global::Sample.Resource.Color.kprogresshud_grey_color;
+			global::KProgressHUDLib.Resource.Color.material_blue_grey_800 = global::Sample.Resource.Color.material_blue_grey_800;
+			global::KProgressHUDLib.Resource.Color.material_blue_grey_900 = global::Sample.Resource.Color.material_blue_grey_900;
+			global::KProgressHUDLib.Resource.Color.material_blue_grey_950 = global::Sample.Resource.Color.material_blue_grey_950;
+			global::KProgressHUDLib.Resource.Color.material_deep_teal_200 = global::Sample.Resource.Color.material_deep_teal_200;
+			global::KProgressHUDLib.Resource.Color.material_deep_teal_500 = global::Sample.Resource.Color.material_deep_teal_500;
+			global::KProgressHUDLib.Resource.Color.material_grey_100 = global::Sample.Resource.Color.material_grey_100;
+			global::KProgressHUDLib.Resource.Color.material_grey_300 = global::Sample.Resource.Color.material_grey_300;
+			global::KProgressHUDLib.Resource.Color.material_grey_50 = global::Sample.Resource.Color.material_grey_50;
+			global::KProgressHUDLib.Resource.Color.material_grey_600 = global::Sample.Resource.Color.material_grey_600;
+			global::KProgressHUDLib.Resource.Color.material_grey_800 = global::Sample.Resource.Color.material_grey_800;
+			global::KProgressHUDLib.Resource.Color.material_grey_850 = global::Sample.Resource.Color.material_grey_850;
+			global::KProgressHUDLib.Resource.Color.material_grey_900 = global::Sample.Resource.Color.material_grey_900;
+			global::KProgressHUDLib.Resource.Color.notification_action_color_filter = global::Sample.Resource.Color.notification_action_color_filter;
+			global::KProgressHUDLib.Resource.Color.notification_icon_bg_color = global::Sample.Resource.Color.notification_icon_bg_color;
+			global::KProgressHUDLib.Resource.Color.notification_material_background_media_default_color = global::Sample.Resource.Color.notification_material_background_media_default_color;
+			global::KProgressHUDLib.Resource.Color.primary_dark_material_dark = global::Sample.Resource.Color.primary_dark_material_dark;
+			global::KProgressHUDLib.Resource.Color.primary_dark_material_light = global::Sample.Resource.Color.primary_dark_material_light;
+			global::KProgressHUDLib.Resource.Color.primary_material_dark = global::Sample.Resource.Color.primary_material_dark;
+			global::KProgressHUDLib.Resource.Color.primary_material_light = global::Sample.Resource.Color.primary_material_light;
+			global::KProgressHUDLib.Resource.Color.primary_text_default_material_dark = global::Sample.Resource.Color.primary_text_default_material_dark;
+			global::KProgressHUDLib.Resource.Color.primary_text_default_material_light = global::Sample.Resource.Color.primary_text_default_material_light;
+			global::KProgressHUDLib.Resource.Color.primary_text_disabled_material_dark = global::Sample.Resource.Color.primary_text_disabled_material_dark;
+			global::KProgressHUDLib.Resource.Color.primary_text_disabled_material_light = global::Sample.Resource.Color.primary_text_disabled_material_light;
+			global::KProgressHUDLib.Resource.Color.ripple_material_dark = global::Sample.Resource.Color.ripple_material_dark;
+			global::KProgressHUDLib.Resource.Color.ripple_material_light = global::Sample.Resource.Color.ripple_material_light;
+			global::KProgressHUDLib.Resource.Color.secondary_text_default_material_dark = global::Sample.Resource.Color.secondary_text_default_material_dark;
+			global::KProgressHUDLib.Resource.Color.secondary_text_default_material_light = global::Sample.Resource.Color.secondary_text_default_material_light;
+			global::KProgressHUDLib.Resource.Color.secondary_text_disabled_material_dark = global::Sample.Resource.Color.secondary_text_disabled_material_dark;
+			global::KProgressHUDLib.Resource.Color.secondary_text_disabled_material_light = global::Sample.Resource.Color.secondary_text_disabled_material_light;
+			global::KProgressHUDLib.Resource.Color.switch_thumb_disabled_material_dark = global::Sample.Resource.Color.switch_thumb_disabled_material_dark;
+			global::KProgressHUDLib.Resource.Color.switch_thumb_disabled_material_light = global::Sample.Resource.Color.switch_thumb_disabled_material_light;
+			global::KProgressHUDLib.Resource.Color.switch_thumb_material_dark = global::Sample.Resource.Color.switch_thumb_material_dark;
+			global::KProgressHUDLib.Resource.Color.switch_thumb_material_light = global::Sample.Resource.Color.switch_thumb_material_light;
+			global::KProgressHUDLib.Resource.Color.switch_thumb_normal_material_dark = global::Sample.Resource.Color.switch_thumb_normal_material_dark;
+			global::KProgressHUDLib.Resource.Color.switch_thumb_normal_material_light = global::Sample.Resource.Color.switch_thumb_normal_material_light;
+			global::KProgressHUDLib.Resource.Color.tooltip_background_dark = global::Sample.Resource.Color.tooltip_background_dark;
+			global::KProgressHUDLib.Resource.Color.tooltip_background_light = global::Sample.Resource.Color.tooltip_background_light;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_content_inset_material = global::Sample.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Sample.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_default_height_material = global::Sample.Resource.Dimension.abc_action_bar_default_height_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Sample.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Sample.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_elevation_material = global::Sample.Resource.Dimension.abc_action_bar_elevation_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Sample.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Sample.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Sample.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_progress_bar_size = global::Sample.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_stacked_max_height = global::Sample.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Sample.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Sample.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Sample.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_button_min_height_material = global::Sample.Resource.Dimension.abc_action_button_min_height_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_button_min_width_material = global::Sample.Resource.Dimension.abc_action_button_min_width_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Sample.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Sample.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::KProgressHUDLib.Resource.Dimension.abc_button_inset_horizontal_material = global::Sample.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_button_inset_vertical_material = global::Sample.Resource.Dimension.abc_button_inset_vertical_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_button_padding_horizontal_material = global::Sample.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_button_padding_vertical_material = global::Sample.Resource.Dimension.abc_button_padding_vertical_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Sample.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::KProgressHUDLib.Resource.Dimension.abc_config_prefDialogWidth = global::Sample.Resource.Dimension.abc_config_prefDialogWidth;
+			global::KProgressHUDLib.Resource.Dimension.abc_control_corner_material = global::Sample.Resource.Dimension.abc_control_corner_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_control_inset_material = global::Sample.Resource.Dimension.abc_control_inset_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_control_padding_material = global::Sample.Resource.Dimension.abc_control_padding_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_fixed_height_major = global::Sample.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_fixed_height_minor = global::Sample.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_fixed_width_major = global::Sample.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_fixed_width_minor = global::Sample.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Sample.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Sample.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_min_width_major = global::Sample.Resource.Dimension.abc_dialog_min_width_major;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_min_width_minor = global::Sample.Resource.Dimension.abc_dialog_min_width_minor;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_padding_material = global::Sample.Resource.Dimension.abc_dialog_padding_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_padding_top_material = global::Sample.Resource.Dimension.abc_dialog_padding_top_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_dialog_title_divider_material = global::Sample.Resource.Dimension.abc_dialog_title_divider_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_disabled_alpha_material_dark = global::Sample.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::KProgressHUDLib.Resource.Dimension.abc_disabled_alpha_material_light = global::Sample.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::KProgressHUDLib.Resource.Dimension.abc_dropdownitem_icon_width = global::Sample.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::KProgressHUDLib.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Sample.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::KProgressHUDLib.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Sample.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::KProgressHUDLib.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Sample.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Sample.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_edit_text_inset_top_material = global::Sample.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_floating_window_z = global::Sample.Resource.Dimension.abc_floating_window_z;
+			global::KProgressHUDLib.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Sample.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_panel_menu_list_width = global::Sample.Resource.Dimension.abc_panel_menu_list_width;
+			global::KProgressHUDLib.Resource.Dimension.abc_progress_bar_height_material = global::Sample.Resource.Dimension.abc_progress_bar_height_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_search_view_preferred_height = global::Sample.Resource.Dimension.abc_search_view_preferred_height;
+			global::KProgressHUDLib.Resource.Dimension.abc_search_view_preferred_width = global::Sample.Resource.Dimension.abc_search_view_preferred_width;
+			global::KProgressHUDLib.Resource.Dimension.abc_seekbar_track_background_height_material = global::Sample.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Sample.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_select_dialog_padding_start_material = global::Sample.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_switch_padding = global::Sample.Resource.Dimension.abc_switch_padding;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_body_1_material = global::Sample.Resource.Dimension.abc_text_size_body_1_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_body_2_material = global::Sample.Resource.Dimension.abc_text_size_body_2_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_button_material = global::Sample.Resource.Dimension.abc_text_size_button_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_caption_material = global::Sample.Resource.Dimension.abc_text_size_caption_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_display_1_material = global::Sample.Resource.Dimension.abc_text_size_display_1_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_display_2_material = global::Sample.Resource.Dimension.abc_text_size_display_2_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_display_3_material = global::Sample.Resource.Dimension.abc_text_size_display_3_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_display_4_material = global::Sample.Resource.Dimension.abc_text_size_display_4_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_headline_material = global::Sample.Resource.Dimension.abc_text_size_headline_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_large_material = global::Sample.Resource.Dimension.abc_text_size_large_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_medium_material = global::Sample.Resource.Dimension.abc_text_size_medium_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_menu_header_material = global::Sample.Resource.Dimension.abc_text_size_menu_header_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_menu_material = global::Sample.Resource.Dimension.abc_text_size_menu_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_small_material = global::Sample.Resource.Dimension.abc_text_size_small_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_subhead_material = global::Sample.Resource.Dimension.abc_text_size_subhead_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Sample.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_title_material = global::Sample.Resource.Dimension.abc_text_size_title_material;
+			global::KProgressHUDLib.Resource.Dimension.abc_text_size_title_material_toolbar = global::Sample.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::KProgressHUDLib.Resource.Dimension.compat_button_inset_horizontal_material = global::Sample.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::KProgressHUDLib.Resource.Dimension.compat_button_inset_vertical_material = global::Sample.Resource.Dimension.compat_button_inset_vertical_material;
+			global::KProgressHUDLib.Resource.Dimension.compat_button_padding_horizontal_material = global::Sample.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::KProgressHUDLib.Resource.Dimension.compat_button_padding_vertical_material = global::Sample.Resource.Dimension.compat_button_padding_vertical_material;
+			global::KProgressHUDLib.Resource.Dimension.compat_control_corner_material = global::Sample.Resource.Dimension.compat_control_corner_material;
+			global::KProgressHUDLib.Resource.Dimension.disabled_alpha_material_dark = global::Sample.Resource.Dimension.disabled_alpha_material_dark;
+			global::KProgressHUDLib.Resource.Dimension.disabled_alpha_material_light = global::Sample.Resource.Dimension.disabled_alpha_material_light;
+			global::KProgressHUDLib.Resource.Dimension.highlight_alpha_material_colored = global::Sample.Resource.Dimension.highlight_alpha_material_colored;
+			global::KProgressHUDLib.Resource.Dimension.highlight_alpha_material_dark = global::Sample.Resource.Dimension.highlight_alpha_material_dark;
+			global::KProgressHUDLib.Resource.Dimension.highlight_alpha_material_light = global::Sample.Resource.Dimension.highlight_alpha_material_light;
+			global::KProgressHUDLib.Resource.Dimension.hint_alpha_material_dark = global::Sample.Resource.Dimension.hint_alpha_material_dark;
+			global::KProgressHUDLib.Resource.Dimension.hint_alpha_material_light = global::Sample.Resource.Dimension.hint_alpha_material_light;
+			global::KProgressHUDLib.Resource.Dimension.hint_pressed_alpha_material_dark = global::Sample.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::KProgressHUDLib.Resource.Dimension.hint_pressed_alpha_material_light = global::Sample.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::KProgressHUDLib.Resource.Dimension.notification_action_icon_size = global::Sample.Resource.Dimension.notification_action_icon_size;
+			global::KProgressHUDLib.Resource.Dimension.notification_action_text_size = global::Sample.Resource.Dimension.notification_action_text_size;
+			global::KProgressHUDLib.Resource.Dimension.notification_big_circle_margin = global::Sample.Resource.Dimension.notification_big_circle_margin;
+			global::KProgressHUDLib.Resource.Dimension.notification_content_margin_start = global::Sample.Resource.Dimension.notification_content_margin_start;
+			global::KProgressHUDLib.Resource.Dimension.notification_large_icon_height = global::Sample.Resource.Dimension.notification_large_icon_height;
+			global::KProgressHUDLib.Resource.Dimension.notification_large_icon_width = global::Sample.Resource.Dimension.notification_large_icon_width;
+			global::KProgressHUDLib.Resource.Dimension.notification_main_column_padding_top = global::Sample.Resource.Dimension.notification_main_column_padding_top;
+			global::KProgressHUDLib.Resource.Dimension.notification_media_narrow_margin = global::Sample.Resource.Dimension.notification_media_narrow_margin;
+			global::KProgressHUDLib.Resource.Dimension.notification_right_icon_size = global::Sample.Resource.Dimension.notification_right_icon_size;
+			global::KProgressHUDLib.Resource.Dimension.notification_right_side_padding_top = global::Sample.Resource.Dimension.notification_right_side_padding_top;
+			global::KProgressHUDLib.Resource.Dimension.notification_small_icon_background_padding = global::Sample.Resource.Dimension.notification_small_icon_background_padding;
+			global::KProgressHUDLib.Resource.Dimension.notification_small_icon_size_as_large = global::Sample.Resource.Dimension.notification_small_icon_size_as_large;
+			global::KProgressHUDLib.Resource.Dimension.notification_subtext_size = global::Sample.Resource.Dimension.notification_subtext_size;
+			global::KProgressHUDLib.Resource.Dimension.notification_top_pad = global::Sample.Resource.Dimension.notification_top_pad;
+			global::KProgressHUDLib.Resource.Dimension.notification_top_pad_large_text = global::Sample.Resource.Dimension.notification_top_pad_large_text;
+			global::KProgressHUDLib.Resource.Dimension.tooltip_corner_radius = global::Sample.Resource.Dimension.tooltip_corner_radius;
+			global::KProgressHUDLib.Resource.Dimension.tooltip_horizontal_padding = global::Sample.Resource.Dimension.tooltip_horizontal_padding;
+			global::KProgressHUDLib.Resource.Dimension.tooltip_margin = global::Sample.Resource.Dimension.tooltip_margin;
+			global::KProgressHUDLib.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Sample.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::KProgressHUDLib.Resource.Dimension.tooltip_precise_anchor_threshold = global::Sample.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::KProgressHUDLib.Resource.Dimension.tooltip_vertical_padding = global::Sample.Resource.Dimension.tooltip_vertical_padding;
+			global::KProgressHUDLib.Resource.Dimension.tooltip_y_offset_non_touch = global::Sample.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::KProgressHUDLib.Resource.Dimension.tooltip_y_offset_touch = global::Sample.Resource.Dimension.tooltip_y_offset_touch;
+			global::KProgressHUDLib.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Sample.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_action_bar_item_background_material = global::Sample.Resource.Drawable.abc_action_bar_item_background_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_borderless_material = global::Sample.Resource.Drawable.abc_btn_borderless_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_check_material = global::Sample.Resource.Drawable.abc_btn_check_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Sample.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Sample.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_colored_material = global::Sample.Resource.Drawable.abc_btn_colored_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_default_mtrl_shape = global::Sample.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_radio_material = global::Sample.Resource.Drawable.abc_btn_radio_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Sample.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Sample.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Sample.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::KProgressHUDLib.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Sample.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::KProgressHUDLib.Resource.Drawable.abc_cab_background_internal_bg = global::Sample.Resource.Drawable.abc_cab_background_internal_bg;
+			global::KProgressHUDLib.Resource.Drawable.abc_cab_background_top_material = global::Sample.Resource.Drawable.abc_cab_background_top_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Sample.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_control_background_material = global::Sample.Resource.Drawable.abc_control_background_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_dialog_material_background = global::Sample.Resource.Drawable.abc_dialog_material_background;
+			global::KProgressHUDLib.Resource.Drawable.abc_edit_text_material = global::Sample.Resource.Drawable.abc_edit_text_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_ab_back_material = global::Sample.Resource.Drawable.abc_ic_ab_back_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Sample.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_clear_material = global::Sample.Resource.Drawable.abc_ic_clear_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_go_search_api_material = global::Sample.Resource.Drawable.abc_ic_go_search_api_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Sample.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_menu_overflow_material = global::Sample.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Sample.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_search_api_material = global::Sample.Resource.Drawable.abc_ic_search_api_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_star_black_16dp = global::Sample.Resource.Drawable.abc_ic_star_black_16dp;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_star_black_36dp = global::Sample.Resource.Drawable.abc_ic_star_black_36dp;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_star_black_48dp = global::Sample.Resource.Drawable.abc_ic_star_black_48dp;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_star_half_black_16dp = global::Sample.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_star_half_black_36dp = global::Sample.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_star_half_black_48dp = global::Sample.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::KProgressHUDLib.Resource.Drawable.abc_ic_voice_search_api_material = global::Sample.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_item_background_holo_dark = global::Sample.Resource.Drawable.abc_item_background_holo_dark;
+			global::KProgressHUDLib.Resource.Drawable.abc_item_background_holo_light = global::Sample.Resource.Drawable.abc_item_background_holo_light;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Sample.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_focused_holo = global::Sample.Resource.Drawable.abc_list_focused_holo;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_longpressed_holo = global::Sample.Resource.Drawable.abc_list_longpressed_holo;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_pressed_holo_dark = global::Sample.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_pressed_holo_light = global::Sample.Resource.Drawable.abc_list_pressed_holo_light;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Sample.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Sample.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_selector_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_holo_dark;
+			global::KProgressHUDLib.Resource.Drawable.abc_list_selector_holo_light = global::Sample.Resource.Drawable.abc_list_selector_holo_light;
+			global::KProgressHUDLib.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Sample.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::KProgressHUDLib.Resource.Drawable.abc_popup_background_mtrl_mult = global::Sample.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::KProgressHUDLib.Resource.Drawable.abc_ratingbar_indicator_material = global::Sample.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_ratingbar_material = global::Sample.Resource.Drawable.abc_ratingbar_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_ratingbar_small_material = global::Sample.Resource.Drawable.abc_ratingbar_small_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Sample.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Sample.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::KProgressHUDLib.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Sample.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::KProgressHUDLib.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Sample.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Sample.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_seekbar_thumb_material = global::Sample.Resource.Drawable.abc_seekbar_thumb_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_seekbar_tick_mark_material = global::Sample.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_seekbar_track_material = global::Sample.Resource.Drawable.abc_seekbar_track_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Sample.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_spinner_textfield_background_material = global::Sample.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_switch_thumb_material = global::Sample.Resource.Drawable.abc_switch_thumb_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Sample.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_tab_indicator_material = global::Sample.Resource.Drawable.abc_tab_indicator_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Sample.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_text_cursor_material = global::Sample.Resource.Drawable.abc_text_cursor_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Sample.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::KProgressHUDLib.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Sample.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::KProgressHUDLib.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Sample.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::KProgressHUDLib.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Sample.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::KProgressHUDLib.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Sample.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::KProgressHUDLib.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Sample.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::KProgressHUDLib.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::KProgressHUDLib.Resource.Drawable.abc_textfield_search_material = global::Sample.Resource.Drawable.abc_textfield_search_material;
+			global::KProgressHUDLib.Resource.Drawable.abc_vector_test = global::Sample.Resource.Drawable.abc_vector_test;
+			global::KProgressHUDLib.Resource.Drawable.kprogresshud_spinner = global::Sample.Resource.Drawable.kprogresshud_spinner;
+			global::KProgressHUDLib.Resource.Drawable.notification_action_background = global::Sample.Resource.Drawable.notification_action_background;
+			global::KProgressHUDLib.Resource.Drawable.notification_bg = global::Sample.Resource.Drawable.notification_bg;
+			global::KProgressHUDLib.Resource.Drawable.notification_bg_low = global::Sample.Resource.Drawable.notification_bg_low;
+			global::KProgressHUDLib.Resource.Drawable.notification_bg_low_normal = global::Sample.Resource.Drawable.notification_bg_low_normal;
+			global::KProgressHUDLib.Resource.Drawable.notification_bg_low_pressed = global::Sample.Resource.Drawable.notification_bg_low_pressed;
+			global::KProgressHUDLib.Resource.Drawable.notification_bg_normal = global::Sample.Resource.Drawable.notification_bg_normal;
+			global::KProgressHUDLib.Resource.Drawable.notification_bg_normal_pressed = global::Sample.Resource.Drawable.notification_bg_normal_pressed;
+			global::KProgressHUDLib.Resource.Drawable.notification_icon_background = global::Sample.Resource.Drawable.notification_icon_background;
+			global::KProgressHUDLib.Resource.Drawable.notification_template_icon_bg = global::Sample.Resource.Drawable.notification_template_icon_bg;
+			global::KProgressHUDLib.Resource.Drawable.notification_template_icon_low_bg = global::Sample.Resource.Drawable.notification_template_icon_low_bg;
+			global::KProgressHUDLib.Resource.Drawable.notification_tile_bg = global::Sample.Resource.Drawable.notification_tile_bg;
+			global::KProgressHUDLib.Resource.Drawable.notify_panel_notification_icon_bg = global::Sample.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::KProgressHUDLib.Resource.Drawable.tooltip_frame_dark = global::Sample.Resource.Drawable.tooltip_frame_dark;
+			global::KProgressHUDLib.Resource.Drawable.tooltip_frame_light = global::Sample.Resource.Drawable.tooltip_frame_light;
+			global::KProgressHUDLib.Resource.Id.ALT = global::Sample.Resource.Id.ALT;
+			global::KProgressHUDLib.Resource.Id.CTRL = global::Sample.Resource.Id.CTRL;
+			global::KProgressHUDLib.Resource.Id.FUNCTION = global::Sample.Resource.Id.FUNCTION;
+			global::KProgressHUDLib.Resource.Id.META = global::Sample.Resource.Id.META;
+			global::KProgressHUDLib.Resource.Id.SHIFT = global::Sample.Resource.Id.SHIFT;
+			global::KProgressHUDLib.Resource.Id.SYM = global::Sample.Resource.Id.SYM;
+			global::KProgressHUDLib.Resource.Id.action0 = global::Sample.Resource.Id.action0;
+			global::KProgressHUDLib.Resource.Id.action_bar = global::Sample.Resource.Id.action_bar;
+			global::KProgressHUDLib.Resource.Id.action_bar_activity_content = global::Sample.Resource.Id.action_bar_activity_content;
+			global::KProgressHUDLib.Resource.Id.action_bar_container = global::Sample.Resource.Id.action_bar_container;
+			global::KProgressHUDLib.Resource.Id.action_bar_root = global::Sample.Resource.Id.action_bar_root;
+			global::KProgressHUDLib.Resource.Id.action_bar_spinner = global::Sample.Resource.Id.action_bar_spinner;
+			global::KProgressHUDLib.Resource.Id.action_bar_subtitle = global::Sample.Resource.Id.action_bar_subtitle;
+			global::KProgressHUDLib.Resource.Id.action_bar_title = global::Sample.Resource.Id.action_bar_title;
+			global::KProgressHUDLib.Resource.Id.action_container = global::Sample.Resource.Id.action_container;
+			global::KProgressHUDLib.Resource.Id.action_context_bar = global::Sample.Resource.Id.action_context_bar;
+			global::KProgressHUDLib.Resource.Id.action_divider = global::Sample.Resource.Id.action_divider;
+			global::KProgressHUDLib.Resource.Id.action_image = global::Sample.Resource.Id.action_image;
+			global::KProgressHUDLib.Resource.Id.action_menu_divider = global::Sample.Resource.Id.action_menu_divider;
+			global::KProgressHUDLib.Resource.Id.action_menu_presenter = global::Sample.Resource.Id.action_menu_presenter;
+			global::KProgressHUDLib.Resource.Id.action_mode_bar = global::Sample.Resource.Id.action_mode_bar;
+			global::KProgressHUDLib.Resource.Id.action_mode_bar_stub = global::Sample.Resource.Id.action_mode_bar_stub;
+			global::KProgressHUDLib.Resource.Id.action_mode_close_button = global::Sample.Resource.Id.action_mode_close_button;
+			global::KProgressHUDLib.Resource.Id.action_text = global::Sample.Resource.Id.action_text;
+			global::KProgressHUDLib.Resource.Id.actions = global::Sample.Resource.Id.actions;
+			global::KProgressHUDLib.Resource.Id.activity_chooser_view_content = global::Sample.Resource.Id.activity_chooser_view_content;
+			global::KProgressHUDLib.Resource.Id.add = global::Sample.Resource.Id.add;
+			global::KProgressHUDLib.Resource.Id.alertTitle = global::Sample.Resource.Id.alertTitle;
+			global::KProgressHUDLib.Resource.Id.always = global::Sample.Resource.Id.always;
+			global::KProgressHUDLib.Resource.Id.async = global::Sample.Resource.Id.async;
+			global::KProgressHUDLib.Resource.Id.background = global::Sample.Resource.Id.background;
+			global::KProgressHUDLib.Resource.Id.beginning = global::Sample.Resource.Id.beginning;
+			global::KProgressHUDLib.Resource.Id.blocking = global::Sample.Resource.Id.blocking;
+			global::KProgressHUDLib.Resource.Id.bottom = global::Sample.Resource.Id.bottom;
+			global::KProgressHUDLib.Resource.Id.buttonPanel = global::Sample.Resource.Id.buttonPanel;
+			global::KProgressHUDLib.Resource.Id.cancel_action = global::Sample.Resource.Id.cancel_action;
+			global::KProgressHUDLib.Resource.Id.checkbox = global::Sample.Resource.Id.checkbox;
+			global::KProgressHUDLib.Resource.Id.chronometer = global::Sample.Resource.Id.chronometer;
+			global::KProgressHUDLib.Resource.Id.collapseActionView = global::Sample.Resource.Id.collapseActionView;
+			global::KProgressHUDLib.Resource.Id.container = global::Sample.Resource.Id.container;
+			global::KProgressHUDLib.Resource.Id.contentPanel = global::Sample.Resource.Id.contentPanel;
+			global::KProgressHUDLib.Resource.Id.custom = global::Sample.Resource.Id.custom;
+			global::KProgressHUDLib.Resource.Id.customPanel = global::Sample.Resource.Id.customPanel;
+			global::KProgressHUDLib.Resource.Id.decor_content_parent = global::Sample.Resource.Id.decor_content_parent;
+			global::KProgressHUDLib.Resource.Id.default_activity_button = global::Sample.Resource.Id.default_activity_button;
+			global::KProgressHUDLib.Resource.Id.details_label = global::Sample.Resource.Id.details_label;
+			global::KProgressHUDLib.Resource.Id.disableHome = global::Sample.Resource.Id.disableHome;
+			global::KProgressHUDLib.Resource.Id.edit_query = global::Sample.Resource.Id.edit_query;
+			global::KProgressHUDLib.Resource.Id.end = global::Sample.Resource.Id.end;
+			global::KProgressHUDLib.Resource.Id.end_padder = global::Sample.Resource.Id.end_padder;
+			global::KProgressHUDLib.Resource.Id.expand_activities_button = global::Sample.Resource.Id.expand_activities_button;
+			global::KProgressHUDLib.Resource.Id.expanded_menu = global::Sample.Resource.Id.expanded_menu;
+			global::KProgressHUDLib.Resource.Id.forever = global::Sample.Resource.Id.forever;
+			global::KProgressHUDLib.Resource.Id.home = global::Sample.Resource.Id.home;
+			global::KProgressHUDLib.Resource.Id.homeAsUp = global::Sample.Resource.Id.homeAsUp;
+			global::KProgressHUDLib.Resource.Id.icon = global::Sample.Resource.Id.icon;
+			global::KProgressHUDLib.Resource.Id.icon_group = global::Sample.Resource.Id.icon_group;
+			global::KProgressHUDLib.Resource.Id.ifRoom = global::Sample.Resource.Id.ifRoom;
+			global::KProgressHUDLib.Resource.Id.image = global::Sample.Resource.Id.image;
+			global::KProgressHUDLib.Resource.Id.info = global::Sample.Resource.Id.info;
+			global::KProgressHUDLib.Resource.Id.italic = global::Sample.Resource.Id.italic;
+			global::KProgressHUDLib.Resource.Id.label = global::Sample.Resource.Id.label;
+			global::KProgressHUDLib.Resource.Id.line1 = global::Sample.Resource.Id.line1;
+			global::KProgressHUDLib.Resource.Id.line3 = global::Sample.Resource.Id.line3;
+			global::KProgressHUDLib.Resource.Id.listMode = global::Sample.Resource.Id.listMode;
+			global::KProgressHUDLib.Resource.Id.list_item = global::Sample.Resource.Id.list_item;
+			global::KProgressHUDLib.Resource.Id.media_actions = global::Sample.Resource.Id.media_actions;
+			global::KProgressHUDLib.Resource.Id.message = global::Sample.Resource.Id.message;
+			global::KProgressHUDLib.Resource.Id.middle = global::Sample.Resource.Id.middle;
+			global::KProgressHUDLib.Resource.Id.multiply = global::Sample.Resource.Id.multiply;
+			global::KProgressHUDLib.Resource.Id.never = global::Sample.Resource.Id.never;
+			global::KProgressHUDLib.Resource.Id.none = global::Sample.Resource.Id.none;
+			global::KProgressHUDLib.Resource.Id.normal = global::Sample.Resource.Id.normal;
+			global::KProgressHUDLib.Resource.Id.notification_background = global::Sample.Resource.Id.notification_background;
+			global::KProgressHUDLib.Resource.Id.notification_main_column = global::Sample.Resource.Id.notification_main_column;
+			global::KProgressHUDLib.Resource.Id.notification_main_column_container = global::Sample.Resource.Id.notification_main_column_container;
+			global::KProgressHUDLib.Resource.Id.parentPanel = global::Sample.Resource.Id.parentPanel;
+			global::KProgressHUDLib.Resource.Id.progress_circular = global::Sample.Resource.Id.progress_circular;
+			global::KProgressHUDLib.Resource.Id.progress_horizontal = global::Sample.Resource.Id.progress_horizontal;
+			global::KProgressHUDLib.Resource.Id.radio = global::Sample.Resource.Id.radio;
+			global::KProgressHUDLib.Resource.Id.right_icon = global::Sample.Resource.Id.right_icon;
+			global::KProgressHUDLib.Resource.Id.right_side = global::Sample.Resource.Id.right_side;
+			global::KProgressHUDLib.Resource.Id.screen = global::Sample.Resource.Id.screen;
+			global::KProgressHUDLib.Resource.Id.scrollIndicatorDown = global::Sample.Resource.Id.scrollIndicatorDown;
+			global::KProgressHUDLib.Resource.Id.scrollIndicatorUp = global::Sample.Resource.Id.scrollIndicatorUp;
+			global::KProgressHUDLib.Resource.Id.scrollView = global::Sample.Resource.Id.scrollView;
+			global::KProgressHUDLib.Resource.Id.search_badge = global::Sample.Resource.Id.search_badge;
+			global::KProgressHUDLib.Resource.Id.search_bar = global::Sample.Resource.Id.search_bar;
+			global::KProgressHUDLib.Resource.Id.search_button = global::Sample.Resource.Id.search_button;
+			global::KProgressHUDLib.Resource.Id.search_close_btn = global::Sample.Resource.Id.search_close_btn;
+			global::KProgressHUDLib.Resource.Id.search_edit_frame = global::Sample.Resource.Id.search_edit_frame;
+			global::KProgressHUDLib.Resource.Id.search_go_btn = global::Sample.Resource.Id.search_go_btn;
+			global::KProgressHUDLib.Resource.Id.search_mag_icon = global::Sample.Resource.Id.search_mag_icon;
+			global::KProgressHUDLib.Resource.Id.search_plate = global::Sample.Resource.Id.search_plate;
+			global::KProgressHUDLib.Resource.Id.search_src_text = global::Sample.Resource.Id.search_src_text;
+			global::KProgressHUDLib.Resource.Id.search_voice_btn = global::Sample.Resource.Id.search_voice_btn;
+			global::KProgressHUDLib.Resource.Id.select_dialog_listview = global::Sample.Resource.Id.select_dialog_listview;
+			global::KProgressHUDLib.Resource.Id.shortcut = global::Sample.Resource.Id.shortcut;
+			global::KProgressHUDLib.Resource.Id.showCustom = global::Sample.Resource.Id.showCustom;
+			global::KProgressHUDLib.Resource.Id.showHome = global::Sample.Resource.Id.showHome;
+			global::KProgressHUDLib.Resource.Id.showTitle = global::Sample.Resource.Id.showTitle;
+			global::KProgressHUDLib.Resource.Id.spacer = global::Sample.Resource.Id.spacer;
+			global::KProgressHUDLib.Resource.Id.split_action_bar = global::Sample.Resource.Id.split_action_bar;
+			global::KProgressHUDLib.Resource.Id.src_atop = global::Sample.Resource.Id.src_atop;
+			global::KProgressHUDLib.Resource.Id.src_in = global::Sample.Resource.Id.src_in;
+			global::KProgressHUDLib.Resource.Id.src_over = global::Sample.Resource.Id.src_over;
+			global::KProgressHUDLib.Resource.Id.status_bar_latest_event_content = global::Sample.Resource.Id.status_bar_latest_event_content;
+			global::KProgressHUDLib.Resource.Id.submenuarrow = global::Sample.Resource.Id.submenuarrow;
+			global::KProgressHUDLib.Resource.Id.submit_area = global::Sample.Resource.Id.submit_area;
+			global::KProgressHUDLib.Resource.Id.tabMode = global::Sample.Resource.Id.tabMode;
+			global::KProgressHUDLib.Resource.Id.tag_transition_group = global::Sample.Resource.Id.tag_transition_group;
+			global::KProgressHUDLib.Resource.Id.text = global::Sample.Resource.Id.text;
+			global::KProgressHUDLib.Resource.Id.text2 = global::Sample.Resource.Id.text2;
+			global::KProgressHUDLib.Resource.Id.textSpacerNoButtons = global::Sample.Resource.Id.textSpacerNoButtons;
+			global::KProgressHUDLib.Resource.Id.textSpacerNoTitle = global::Sample.Resource.Id.textSpacerNoTitle;
+			global::KProgressHUDLib.Resource.Id.time = global::Sample.Resource.Id.time;
+			global::KProgressHUDLib.Resource.Id.title = global::Sample.Resource.Id.title;
+			global::KProgressHUDLib.Resource.Id.titleDividerNoCustom = global::Sample.Resource.Id.titleDividerNoCustom;
+			global::KProgressHUDLib.Resource.Id.title_template = global::Sample.Resource.Id.title_template;
+			global::KProgressHUDLib.Resource.Id.top = global::Sample.Resource.Id.top;
+			global::KProgressHUDLib.Resource.Id.topPanel = global::Sample.Resource.Id.topPanel;
+			global::KProgressHUDLib.Resource.Id.uniform = global::Sample.Resource.Id.uniform;
+			global::KProgressHUDLib.Resource.Id.up = global::Sample.Resource.Id.up;
+			global::KProgressHUDLib.Resource.Id.useLogo = global::Sample.Resource.Id.useLogo;
+			global::KProgressHUDLib.Resource.Id.withText = global::Sample.Resource.Id.withText;
+			global::KProgressHUDLib.Resource.Id.wrap_content = global::Sample.Resource.Id.wrap_content;
+			global::KProgressHUDLib.Resource.Integer.abc_config_activityDefaultDur = global::Sample.Resource.Integer.abc_config_activityDefaultDur;
+			global::KProgressHUDLib.Resource.Integer.abc_config_activityShortDur = global::Sample.Resource.Integer.abc_config_activityShortDur;
+			global::KProgressHUDLib.Resource.Integer.cancel_button_image_alpha = global::Sample.Resource.Integer.cancel_button_image_alpha;
+			global::KProgressHUDLib.Resource.Integer.config_tooltipAnimTime = global::Sample.Resource.Integer.config_tooltipAnimTime;
+			global::KProgressHUDLib.Resource.Integer.status_bar_notification_info_maxnum = global::Sample.Resource.Integer.status_bar_notification_info_maxnum;
+			global::KProgressHUDLib.Resource.Layout.abc_action_bar_title_item = global::Sample.Resource.Layout.abc_action_bar_title_item;
+			global::KProgressHUDLib.Resource.Layout.abc_action_bar_up_container = global::Sample.Resource.Layout.abc_action_bar_up_container;
+			global::KProgressHUDLib.Resource.Layout.abc_action_menu_item_layout = global::Sample.Resource.Layout.abc_action_menu_item_layout;
+			global::KProgressHUDLib.Resource.Layout.abc_action_menu_layout = global::Sample.Resource.Layout.abc_action_menu_layout;
+			global::KProgressHUDLib.Resource.Layout.abc_action_mode_bar = global::Sample.Resource.Layout.abc_action_mode_bar;
+			global::KProgressHUDLib.Resource.Layout.abc_action_mode_close_item_material = global::Sample.Resource.Layout.abc_action_mode_close_item_material;
+			global::KProgressHUDLib.Resource.Layout.abc_activity_chooser_view = global::Sample.Resource.Layout.abc_activity_chooser_view;
+			global::KProgressHUDLib.Resource.Layout.abc_activity_chooser_view_list_item = global::Sample.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::KProgressHUDLib.Resource.Layout.abc_alert_dialog_button_bar_material = global::Sample.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::KProgressHUDLib.Resource.Layout.abc_alert_dialog_material = global::Sample.Resource.Layout.abc_alert_dialog_material;
+			global::KProgressHUDLib.Resource.Layout.abc_alert_dialog_title_material = global::Sample.Resource.Layout.abc_alert_dialog_title_material;
+			global::KProgressHUDLib.Resource.Layout.abc_dialog_title_material = global::Sample.Resource.Layout.abc_dialog_title_material;
+			global::KProgressHUDLib.Resource.Layout.abc_expanded_menu_layout = global::Sample.Resource.Layout.abc_expanded_menu_layout;
+			global::KProgressHUDLib.Resource.Layout.abc_list_menu_item_checkbox = global::Sample.Resource.Layout.abc_list_menu_item_checkbox;
+			global::KProgressHUDLib.Resource.Layout.abc_list_menu_item_icon = global::Sample.Resource.Layout.abc_list_menu_item_icon;
+			global::KProgressHUDLib.Resource.Layout.abc_list_menu_item_layout = global::Sample.Resource.Layout.abc_list_menu_item_layout;
+			global::KProgressHUDLib.Resource.Layout.abc_list_menu_item_radio = global::Sample.Resource.Layout.abc_list_menu_item_radio;
+			global::KProgressHUDLib.Resource.Layout.abc_popup_menu_header_item_layout = global::Sample.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::KProgressHUDLib.Resource.Layout.abc_popup_menu_item_layout = global::Sample.Resource.Layout.abc_popup_menu_item_layout;
+			global::KProgressHUDLib.Resource.Layout.abc_screen_content_include = global::Sample.Resource.Layout.abc_screen_content_include;
+			global::KProgressHUDLib.Resource.Layout.abc_screen_simple = global::Sample.Resource.Layout.abc_screen_simple;
+			global::KProgressHUDLib.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Sample.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::KProgressHUDLib.Resource.Layout.abc_screen_toolbar = global::Sample.Resource.Layout.abc_screen_toolbar;
+			global::KProgressHUDLib.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Sample.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::KProgressHUDLib.Resource.Layout.abc_search_view = global::Sample.Resource.Layout.abc_search_view;
+			global::KProgressHUDLib.Resource.Layout.abc_select_dialog_material = global::Sample.Resource.Layout.abc_select_dialog_material;
+			global::KProgressHUDLib.Resource.Layout.kprogresshud_hud = global::Sample.Resource.Layout.kprogresshud_hud;
+			global::KProgressHUDLib.Resource.Layout.notification_action = global::Sample.Resource.Layout.notification_action;
+			global::KProgressHUDLib.Resource.Layout.notification_action_tombstone = global::Sample.Resource.Layout.notification_action_tombstone;
+			global::KProgressHUDLib.Resource.Layout.notification_media_action = global::Sample.Resource.Layout.notification_media_action;
+			global::KProgressHUDLib.Resource.Layout.notification_media_cancel_action = global::Sample.Resource.Layout.notification_media_cancel_action;
+			global::KProgressHUDLib.Resource.Layout.notification_template_big_media = global::Sample.Resource.Layout.notification_template_big_media;
+			global::KProgressHUDLib.Resource.Layout.notification_template_big_media_custom = global::Sample.Resource.Layout.notification_template_big_media_custom;
+			global::KProgressHUDLib.Resource.Layout.notification_template_big_media_narrow = global::Sample.Resource.Layout.notification_template_big_media_narrow;
+			global::KProgressHUDLib.Resource.Layout.notification_template_big_media_narrow_custom = global::Sample.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::KProgressHUDLib.Resource.Layout.notification_template_custom_big = global::Sample.Resource.Layout.notification_template_custom_big;
+			global::KProgressHUDLib.Resource.Layout.notification_template_icon_group = global::Sample.Resource.Layout.notification_template_icon_group;
+			global::KProgressHUDLib.Resource.Layout.notification_template_lines_media = global::Sample.Resource.Layout.notification_template_lines_media;
+			global::KProgressHUDLib.Resource.Layout.notification_template_media = global::Sample.Resource.Layout.notification_template_media;
+			global::KProgressHUDLib.Resource.Layout.notification_template_media_custom = global::Sample.Resource.Layout.notification_template_media_custom;
+			global::KProgressHUDLib.Resource.Layout.notification_template_part_chronometer = global::Sample.Resource.Layout.notification_template_part_chronometer;
+			global::KProgressHUDLib.Resource.Layout.notification_template_part_time = global::Sample.Resource.Layout.notification_template_part_time;
+			global::KProgressHUDLib.Resource.Layout.select_dialog_item_material = global::Sample.Resource.Layout.select_dialog_item_material;
+			global::KProgressHUDLib.Resource.Layout.select_dialog_multichoice_material = global::Sample.Resource.Layout.select_dialog_multichoice_material;
+			global::KProgressHUDLib.Resource.Layout.select_dialog_singlechoice_material = global::Sample.Resource.Layout.select_dialog_singlechoice_material;
+			global::KProgressHUDLib.Resource.Layout.support_simple_spinner_dropdown_item = global::Sample.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::KProgressHUDLib.Resource.Layout.tooltip = global::Sample.Resource.Layout.tooltip;
+			global::KProgressHUDLib.Resource.String.abc_action_bar_home_description = global::Sample.Resource.String.abc_action_bar_home_description;
+			global::KProgressHUDLib.Resource.String.abc_action_bar_up_description = global::Sample.Resource.String.abc_action_bar_up_description;
+			global::KProgressHUDLib.Resource.String.abc_action_menu_overflow_description = global::Sample.Resource.String.abc_action_menu_overflow_description;
+			global::KProgressHUDLib.Resource.String.abc_action_mode_done = global::Sample.Resource.String.abc_action_mode_done;
+			global::KProgressHUDLib.Resource.String.abc_activity_chooser_view_see_all = global::Sample.Resource.String.abc_activity_chooser_view_see_all;
+			global::KProgressHUDLib.Resource.String.abc_activitychooserview_choose_application = global::Sample.Resource.String.abc_activitychooserview_choose_application;
+			global::KProgressHUDLib.Resource.String.abc_capital_off = global::Sample.Resource.String.abc_capital_off;
+			global::KProgressHUDLib.Resource.String.abc_capital_on = global::Sample.Resource.String.abc_capital_on;
+			global::KProgressHUDLib.Resource.String.abc_font_family_body_1_material = global::Sample.Resource.String.abc_font_family_body_1_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_body_2_material = global::Sample.Resource.String.abc_font_family_body_2_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_button_material = global::Sample.Resource.String.abc_font_family_button_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_caption_material = global::Sample.Resource.String.abc_font_family_caption_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_display_1_material = global::Sample.Resource.String.abc_font_family_display_1_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_display_2_material = global::Sample.Resource.String.abc_font_family_display_2_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_display_3_material = global::Sample.Resource.String.abc_font_family_display_3_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_display_4_material = global::Sample.Resource.String.abc_font_family_display_4_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_headline_material = global::Sample.Resource.String.abc_font_family_headline_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_menu_material = global::Sample.Resource.String.abc_font_family_menu_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_subhead_material = global::Sample.Resource.String.abc_font_family_subhead_material;
+			global::KProgressHUDLib.Resource.String.abc_font_family_title_material = global::Sample.Resource.String.abc_font_family_title_material;
+			global::KProgressHUDLib.Resource.String.abc_search_hint = global::Sample.Resource.String.abc_search_hint;
+			global::KProgressHUDLib.Resource.String.abc_searchview_description_clear = global::Sample.Resource.String.abc_searchview_description_clear;
+			global::KProgressHUDLib.Resource.String.abc_searchview_description_query = global::Sample.Resource.String.abc_searchview_description_query;
+			global::KProgressHUDLib.Resource.String.abc_searchview_description_search = global::Sample.Resource.String.abc_searchview_description_search;
+			global::KProgressHUDLib.Resource.String.abc_searchview_description_submit = global::Sample.Resource.String.abc_searchview_description_submit;
+			global::KProgressHUDLib.Resource.String.abc_searchview_description_voice = global::Sample.Resource.String.abc_searchview_description_voice;
+			global::KProgressHUDLib.Resource.String.abc_shareactionprovider_share_with = global::Sample.Resource.String.abc_shareactionprovider_share_with;
+			global::KProgressHUDLib.Resource.String.abc_shareactionprovider_share_with_application = global::Sample.Resource.String.abc_shareactionprovider_share_with_application;
+			global::KProgressHUDLib.Resource.String.abc_toolbar_collapse_description = global::Sample.Resource.String.abc_toolbar_collapse_description;
+			global::KProgressHUDLib.Resource.String.app_name = global::Sample.Resource.String.app_name;
+			global::KProgressHUDLib.Resource.String.hello = global::Sample.Resource.String.hello;
+			global::KProgressHUDLib.Resource.String.search_menu_title = global::Sample.Resource.String.search_menu_title;
+			global::KProgressHUDLib.Resource.String.status_bar_notification_info_overflow = global::Sample.Resource.String.status_bar_notification_info_overflow;
+			global::KProgressHUDLib.Resource.Style.AlertDialog_AppCompat = global::Sample.Resource.Style.AlertDialog_AppCompat;
+			global::KProgressHUDLib.Resource.Style.AlertDialog_AppCompat_Light = global::Sample.Resource.Style.AlertDialog_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Animation_AppCompat_Dialog = global::Sample.Resource.Style.Animation_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Animation_AppCompat_DropDownUp = global::Sample.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::KProgressHUDLib.Resource.Style.Animation_AppCompat_Tooltip = global::Sample.Resource.Style.Animation_AppCompat_Tooltip;
+			global::KProgressHUDLib.Resource.Style.Base_AlertDialog_AppCompat = global::Sample.Resource.Style.Base_AlertDialog_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Sample.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Base_Animation_AppCompat_Dialog = global::Sample.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Sample.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::KProgressHUDLib.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Sample.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::KProgressHUDLib.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Sample.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Sample.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat = global::Sample.Resource.Style.Base_TextAppearance_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::KProgressHUDLib.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat = global::Sample.Resource.Style.Base_Theme_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Sample.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Sample.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Sample.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Sample.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Sample.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_Theme_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::KProgressHUDLib.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::KProgressHUDLib.Resource.Style.Base_ThemeOverlay_AppCompat = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::KProgressHUDLib.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::KProgressHUDLib.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::Sample.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::KProgressHUDLib.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Sample.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::KProgressHUDLib.Resource.Style.Base_V21_Theme_AppCompat = global::Sample.Resource.Style.Base_V21_Theme_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Sample.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V22_Theme_AppCompat = global::Sample.Resource.Style.Base_V22_Theme_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Base_V23_Theme_AppCompat = global::Sample.Resource.Style.Base_V23_Theme_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Base_V26_Theme_AppCompat = global::Sample.Resource.Style.Base_V26_Theme_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Sample.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::KProgressHUDLib.Resource.Style.Base_V7_Theme_AppCompat = global::Sample.Resource.Style.Base_V7_Theme_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Sample.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::KProgressHUDLib.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Sample.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::KProgressHUDLib.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Sample.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Sample.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Button = global::Sample.Resource.Style.Base_Widget_AppCompat_Button;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Sample.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Sample.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Sample.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Sample.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Sample.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Sample.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Sample.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Sample.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Sample.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Sample.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Sample.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Sample.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Sample.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_EditText = global::Sample.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Sample.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Sample.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Sample.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ListView = global::Sample.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Sample.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Sample.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Sample.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Sample.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Sample.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Sample.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Sample.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Sample.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Sample.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Sample.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_SearchView = global::Sample.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Sample.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Sample.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Sample.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Spinner = global::Sample.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Sample.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Sample.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Sample.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::KProgressHUDLib.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Sample.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::KProgressHUDLib.Resource.Style.Platform_AppCompat = global::Sample.Resource.Style.Platform_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Platform_AppCompat_Light = global::Sample.Resource.Style.Platform_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Sample.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Sample.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::KProgressHUDLib.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Sample.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Platform_V11_AppCompat = global::Sample.Resource.Style.Platform_V11_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Platform_V11_AppCompat_Light = global::Sample.Resource.Style.Platform_V11_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Platform_V14_AppCompat = global::Sample.Resource.Style.Platform_V14_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Platform_V14_AppCompat_Light = global::Sample.Resource.Style.Platform_V14_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Platform_V21_AppCompat = global::Sample.Resource.Style.Platform_V21_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Platform_V21_AppCompat_Light = global::Sample.Resource.Style.Platform_V21_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Platform_V25_AppCompat = global::Sample.Resource.Style.Platform_V25_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Platform_V25_AppCompat_Light = global::Sample.Resource.Style.Platform_V25_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Sample.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Sample.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::KProgressHUDLib.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::KProgressHUDLib.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Sample.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::KProgressHUDLib.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Sample.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat = global::Sample.Resource.Style.TextAppearance_AppCompat;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Body1 = global::Sample.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Body2 = global::Sample.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Button = global::Sample.Resource.Style.TextAppearance_AppCompat_Button;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Caption = global::Sample.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Display1 = global::Sample.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Display2 = global::Sample.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Display3 = global::Sample.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Display4 = global::Sample.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Headline = global::Sample.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Large;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Medium = global::Sample.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Menu = global::Sample.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Small;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Subhead = global::Sample.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Title;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Sample.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification = global::Sample.Resource.Style.TextAppearance_Compat_Notification;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Info = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Media = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Time = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Title = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Sample.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::KProgressHUDLib.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat = global::Sample.Resource.Style.Theme_AppCompat;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_CompactMenu = global::Sample.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_DayNight = global::Sample.Resource.Style.Theme_AppCompat_DayNight;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Sample.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Sample.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Sample.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Sample.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Sample.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Sample.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Dialog = global::Sample.Resource.Style.Theme_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Sample.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Sample.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Sample.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Light = global::Sample.Resource.Style.Theme_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Sample.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Sample.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Sample.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Sample.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Sample.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::KProgressHUDLib.Resource.Style.Theme_AppCompat_NoActionBar = global::Sample.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::KProgressHUDLib.Resource.Style.ThemeOverlay_AppCompat = global::Sample.Resource.Style.ThemeOverlay_AppCompat;
+			global::KProgressHUDLib.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Sample.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::KProgressHUDLib.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Sample.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::KProgressHUDLib.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Sample.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::KProgressHUDLib.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Sample.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::KProgressHUDLib.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Sample.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::KProgressHUDLib.Resource.Style.ThemeOverlay_AppCompat_Light = global::Sample.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionButton = global::Sample.Resource.Style.Widget_AppCompat_ActionButton;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Sample.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Sample.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActionMode = global::Sample.Resource.Style.Widget_AppCompat_ActionMode;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Button = global::Sample.Resource.Style.Widget_AppCompat_Button;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Button_Borderless = global::Sample.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Sample.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Sample.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Button_Colored = global::Sample.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Button_Small = global::Sample.Resource.Style.Widget_AppCompat_Button_Small;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ButtonBar = global::Sample.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Sample.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Sample.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Sample.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Sample.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Sample.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_EditText = global::Sample.Resource.Style.Widget_AppCompat_EditText;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ImageButton = global::Sample.Resource.Style.Widget_AppCompat_ImageButton;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Sample.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Sample.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Sample.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Sample.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_SearchView = global::Sample.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ListMenuView = global::Sample.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Sample.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ListView = global::Sample.Resource.Style.Widget_AppCompat_ListView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Sample.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ListView_Menu = global::Sample.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_PopupMenu = global::Sample.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Sample.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_PopupWindow = global::Sample.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ProgressBar = global::Sample.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Sample.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_RatingBar = global::Sample.Resource.Style.Widget_AppCompat_RatingBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Sample.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Sample.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_SearchView = global::Sample.Resource.Style.Widget_AppCompat_SearchView;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_SeekBar = global::Sample.Resource.Style.Widget_AppCompat_SeekBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Sample.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Spinner;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Sample.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Sample.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Sample.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Toolbar = global::Sample.Resource.Style.Widget_AppCompat_Toolbar;
+			global::KProgressHUDLib.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Sample.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::KProgressHUDLib.Resource.Style.Widget_Compat_NotificationActionContainer = global::Sample.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::KProgressHUDLib.Resource.Style.Widget_Compat_NotificationActionText = global::Sample.Resource.Style.Widget_Compat_NotificationActionText;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar = global::Sample.Resource.Styleable.ActionBar;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_background = global::Sample.Resource.Styleable.ActionBar_background;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_backgroundSplit = global::Sample.Resource.Styleable.ActionBar_backgroundSplit;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_backgroundStacked = global::Sample.Resource.Styleable.ActionBar_backgroundStacked;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_contentInsetEnd = global::Sample.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Sample.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_contentInsetLeft = global::Sample.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_contentInsetRight = global::Sample.Resource.Styleable.ActionBar_contentInsetRight;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_contentInsetStart = global::Sample.Resource.Styleable.ActionBar_contentInsetStart;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Sample.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_customNavigationLayout = global::Sample.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_displayOptions = global::Sample.Resource.Styleable.ActionBar_displayOptions;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_divider = global::Sample.Resource.Styleable.ActionBar_divider;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_elevation = global::Sample.Resource.Styleable.ActionBar_elevation;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_height = global::Sample.Resource.Styleable.ActionBar_height;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_hideOnContentScroll = global::Sample.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Sample.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_homeLayout = global::Sample.Resource.Styleable.ActionBar_homeLayout;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_icon = global::Sample.Resource.Styleable.ActionBar_icon;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Sample.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_itemPadding = global::Sample.Resource.Styleable.ActionBar_itemPadding;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_logo = global::Sample.Resource.Styleable.ActionBar_logo;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_navigationMode = global::Sample.Resource.Styleable.ActionBar_navigationMode;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_popupTheme = global::Sample.Resource.Styleable.ActionBar_popupTheme;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_progressBarPadding = global::Sample.Resource.Styleable.ActionBar_progressBarPadding;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_progressBarStyle = global::Sample.Resource.Styleable.ActionBar_progressBarStyle;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_subtitle = global::Sample.Resource.Styleable.ActionBar_subtitle;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_subtitleTextStyle = global::Sample.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_title = global::Sample.Resource.Styleable.ActionBar_title;
+			global::KProgressHUDLib.Resource.Styleable.ActionBar_titleTextStyle = global::Sample.Resource.Styleable.ActionBar_titleTextStyle;
+			global::KProgressHUDLib.Resource.Styleable.ActionBarLayout = global::Sample.Resource.Styleable.ActionBarLayout;
+			global::KProgressHUDLib.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Sample.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::KProgressHUDLib.Resource.Styleable.ActionMenuItemView = global::Sample.Resource.Styleable.ActionMenuItemView;
+			global::KProgressHUDLib.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Sample.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::KProgressHUDLib.Resource.Styleable.ActionMenuView = global::Sample.Resource.Styleable.ActionMenuView;
+			global::KProgressHUDLib.Resource.Styleable.ActionMode = global::Sample.Resource.Styleable.ActionMode;
+			global::KProgressHUDLib.Resource.Styleable.ActionMode_background = global::Sample.Resource.Styleable.ActionMode_background;
+			global::KProgressHUDLib.Resource.Styleable.ActionMode_backgroundSplit = global::Sample.Resource.Styleable.ActionMode_backgroundSplit;
+			global::KProgressHUDLib.Resource.Styleable.ActionMode_closeItemLayout = global::Sample.Resource.Styleable.ActionMode_closeItemLayout;
+			global::KProgressHUDLib.Resource.Styleable.ActionMode_height = global::Sample.Resource.Styleable.ActionMode_height;
+			global::KProgressHUDLib.Resource.Styleable.ActionMode_subtitleTextStyle = global::Sample.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::KProgressHUDLib.Resource.Styleable.ActionMode_titleTextStyle = global::Sample.Resource.Styleable.ActionMode_titleTextStyle;
+			global::KProgressHUDLib.Resource.Styleable.ActivityChooserView = global::Sample.Resource.Styleable.ActivityChooserView;
+			global::KProgressHUDLib.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Sample.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::KProgressHUDLib.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Sample.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::KProgressHUDLib.Resource.Styleable.AlertDialog = global::Sample.Resource.Styleable.AlertDialog;
+			global::KProgressHUDLib.Resource.Styleable.AlertDialog_android_layout = global::Sample.Resource.Styleable.AlertDialog_android_layout;
+			global::KProgressHUDLib.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Sample.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::KProgressHUDLib.Resource.Styleable.AlertDialog_listItemLayout = global::Sample.Resource.Styleable.AlertDialog_listItemLayout;
+			global::KProgressHUDLib.Resource.Styleable.AlertDialog_listLayout = global::Sample.Resource.Styleable.AlertDialog_listLayout;
+			global::KProgressHUDLib.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Sample.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::KProgressHUDLib.Resource.Styleable.AlertDialog_showTitle = global::Sample.Resource.Styleable.AlertDialog_showTitle;
+			global::KProgressHUDLib.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Sample.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatImageView = global::Sample.Resource.Styleable.AppCompatImageView;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatImageView_android_src = global::Sample.Resource.Styleable.AppCompatImageView_android_src;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatImageView_srcCompat = global::Sample.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatImageView_tint = global::Sample.Resource.Styleable.AppCompatImageView_tint;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatImageView_tintMode = global::Sample.Resource.Styleable.AppCompatImageView_tintMode;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatSeekBar = global::Sample.Resource.Styleable.AppCompatSeekBar;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Sample.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatSeekBar_tickMark = global::Sample.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Sample.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Sample.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextHelper = global::Sample.Resource.Styleable.AppCompatTextHelper;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Sample.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Sample.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Sample.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Sample.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Sample.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Sample.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Sample.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView = global::Sample.Resource.Styleable.AppCompatTextView;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Sample.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Sample.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Sample.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Sample.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Sample.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Sample.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView_fontFamily = global::Sample.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTextView_textAllCaps = global::Sample.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme = global::Sample.Resource.Styleable.AppCompatTheme;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Sample.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Sample.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Sample.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarSize = global::Sample.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Sample.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Sample.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Sample.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Sample.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Sample.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Sample.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Sample.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Sample.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Sample.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Sample.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Sample.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Sample.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Sample.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Sample.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Sample.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Sample.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Sample.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Sample.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Sample.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Sample.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Sample.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Sample.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Sample.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Sample.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_buttonStyle = global::Sample.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Sample.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Sample.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Sample.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorAccent = global::Sample.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Sample.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Sample.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Sample.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Sample.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Sample.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorError = global::Sample.Resource.Styleable.AppCompatTheme_colorError;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorPrimary = global::Sample.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Sample.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Sample.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_controlBackground = global::Sample.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Sample.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_dialogTheme = global::Sample.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Sample.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_dividerVertical = global::Sample.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Sample.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Sample.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_editTextBackground = global::Sample.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_editTextColor = global::Sample.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_editTextStyle = global::Sample.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Sample.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Sample.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Sample.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Sample.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Sample.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Sample.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Sample.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Sample.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Sample.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Sample.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_panelBackground = global::Sample.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Sample.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Sample.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Sample.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Sample.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Sample.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Sample.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Sample.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Sample.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Sample.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Sample.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Sample.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Sample.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Sample.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_switchStyle = global::Sample.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Sample.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Sample.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Sample.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Sample.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Sample.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Sample.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Sample.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Sample.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Sample.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Sample.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Sample.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Sample.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Sample.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Sample.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowActionBar = global::Sample.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Sample.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Sample.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Sample.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Sample.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Sample.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Sample.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Sample.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Sample.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::KProgressHUDLib.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Sample.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::KProgressHUDLib.Resource.Styleable.ButtonBarLayout = global::Sample.Resource.Styleable.ButtonBarLayout;
+			global::KProgressHUDLib.Resource.Styleable.ButtonBarLayout_allowStacking = global::Sample.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::KProgressHUDLib.Resource.Styleable.ColorStateListItem = global::Sample.Resource.Styleable.ColorStateListItem;
+			global::KProgressHUDLib.Resource.Styleable.ColorStateListItem_alpha = global::Sample.Resource.Styleable.ColorStateListItem_alpha;
+			global::KProgressHUDLib.Resource.Styleable.ColorStateListItem_android_alpha = global::Sample.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::KProgressHUDLib.Resource.Styleable.ColorStateListItem_android_color = global::Sample.Resource.Styleable.ColorStateListItem_android_color;
+			global::KProgressHUDLib.Resource.Styleable.CompoundButton = global::Sample.Resource.Styleable.CompoundButton;
+			global::KProgressHUDLib.Resource.Styleable.CompoundButton_android_button = global::Sample.Resource.Styleable.CompoundButton_android_button;
+			global::KProgressHUDLib.Resource.Styleable.CompoundButton_buttonTint = global::Sample.Resource.Styleable.CompoundButton_buttonTint;
+			global::KProgressHUDLib.Resource.Styleable.CompoundButton_buttonTintMode = global::Sample.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle = global::Sample.Resource.Styleable.DrawerArrowToggle;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Sample.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Sample.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle_barLength = global::Sample.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle_color = global::Sample.Resource.Styleable.DrawerArrowToggle_color;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Sample.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Sample.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle_spinBars = global::Sample.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::KProgressHUDLib.Resource.Styleable.DrawerArrowToggle_thickness = global::Sample.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::KProgressHUDLib.Resource.Styleable.FontFamily = global::Sample.Resource.Styleable.FontFamily;
+			global::KProgressHUDLib.Resource.Styleable.FontFamily_fontProviderAuthority = global::Sample.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::KProgressHUDLib.Resource.Styleable.FontFamily_fontProviderCerts = global::Sample.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::KProgressHUDLib.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Sample.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::KProgressHUDLib.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Sample.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::KProgressHUDLib.Resource.Styleable.FontFamily_fontProviderPackage = global::Sample.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::KProgressHUDLib.Resource.Styleable.FontFamily_fontProviderQuery = global::Sample.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::KProgressHUDLib.Resource.Styleable.FontFamilyFont = global::Sample.Resource.Styleable.FontFamilyFont;
+			global::KProgressHUDLib.Resource.Styleable.FontFamilyFont_android_font = global::Sample.Resource.Styleable.FontFamilyFont_android_font;
+			global::KProgressHUDLib.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Sample.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::KProgressHUDLib.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Sample.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::KProgressHUDLib.Resource.Styleable.FontFamilyFont_font = global::Sample.Resource.Styleable.FontFamilyFont_font;
+			global::KProgressHUDLib.Resource.Styleable.FontFamilyFont_fontStyle = global::Sample.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::KProgressHUDLib.Resource.Styleable.FontFamilyFont_fontWeight = global::Sample.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat = global::Sample.Resource.Styleable.LinearLayoutCompat;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Sample.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Sample.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Sample.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Sample.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Sample.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_divider = global::Sample.Resource.Styleable.LinearLayoutCompat_divider;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Sample.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Sample.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_showDividers = global::Sample.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_Layout = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::KProgressHUDLib.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::KProgressHUDLib.Resource.Styleable.ListPopupWindow = global::Sample.Resource.Styleable.ListPopupWindow;
+			global::KProgressHUDLib.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Sample.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::KProgressHUDLib.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Sample.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::KProgressHUDLib.Resource.Styleable.MenuGroup = global::Sample.Resource.Styleable.MenuGroup;
+			global::KProgressHUDLib.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Sample.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::KProgressHUDLib.Resource.Styleable.MenuGroup_android_enabled = global::Sample.Resource.Styleable.MenuGroup_android_enabled;
+			global::KProgressHUDLib.Resource.Styleable.MenuGroup_android_id = global::Sample.Resource.Styleable.MenuGroup_android_id;
+			global::KProgressHUDLib.Resource.Styleable.MenuGroup_android_menuCategory = global::Sample.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::KProgressHUDLib.Resource.Styleable.MenuGroup_android_orderInCategory = global::Sample.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::KProgressHUDLib.Resource.Styleable.MenuGroup_android_visible = global::Sample.Resource.Styleable.MenuGroup_android_visible;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem = global::Sample.Resource.Styleable.MenuItem;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_actionLayout = global::Sample.Resource.Styleable.MenuItem_actionLayout;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_actionProviderClass = global::Sample.Resource.Styleable.MenuItem_actionProviderClass;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_actionViewClass = global::Sample.Resource.Styleable.MenuItem_actionViewClass;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_alphabeticModifiers = global::Sample.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Sample.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_checkable = global::Sample.Resource.Styleable.MenuItem_android_checkable;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_checked = global::Sample.Resource.Styleable.MenuItem_android_checked;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_enabled = global::Sample.Resource.Styleable.MenuItem_android_enabled;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_icon = global::Sample.Resource.Styleable.MenuItem_android_icon;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_id = global::Sample.Resource.Styleable.MenuItem_android_id;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_menuCategory = global::Sample.Resource.Styleable.MenuItem_android_menuCategory;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_numericShortcut = global::Sample.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_onClick = global::Sample.Resource.Styleable.MenuItem_android_onClick;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_orderInCategory = global::Sample.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_title = global::Sample.Resource.Styleable.MenuItem_android_title;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_titleCondensed = global::Sample.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_android_visible = global::Sample.Resource.Styleable.MenuItem_android_visible;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_contentDescription = global::Sample.Resource.Styleable.MenuItem_contentDescription;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_iconTint = global::Sample.Resource.Styleable.MenuItem_iconTint;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_iconTintMode = global::Sample.Resource.Styleable.MenuItem_iconTintMode;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_numericModifiers = global::Sample.Resource.Styleable.MenuItem_numericModifiers;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_showAsAction = global::Sample.Resource.Styleable.MenuItem_showAsAction;
+			global::KProgressHUDLib.Resource.Styleable.MenuItem_tooltipText = global::Sample.Resource.Styleable.MenuItem_tooltipText;
+			global::KProgressHUDLib.Resource.Styleable.MenuView = global::Sample.Resource.Styleable.MenuView;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_android_headerBackground = global::Sample.Resource.Styleable.MenuView_android_headerBackground;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_android_horizontalDivider = global::Sample.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_android_itemBackground = global::Sample.Resource.Styleable.MenuView_android_itemBackground;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Sample.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_android_itemTextAppearance = global::Sample.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_android_verticalDivider = global::Sample.Resource.Styleable.MenuView_android_verticalDivider;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Sample.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_preserveIconSpacing = global::Sample.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::KProgressHUDLib.Resource.Styleable.MenuView_subMenuArrow = global::Sample.Resource.Styleable.MenuView_subMenuArrow;
+			global::KProgressHUDLib.Resource.Styleable.PopupWindow = global::Sample.Resource.Styleable.PopupWindow;
+			global::KProgressHUDLib.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Sample.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::KProgressHUDLib.Resource.Styleable.PopupWindow_android_popupBackground = global::Sample.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::KProgressHUDLib.Resource.Styleable.PopupWindow_overlapAnchor = global::Sample.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::KProgressHUDLib.Resource.Styleable.PopupWindowBackgroundState = global::Sample.Resource.Styleable.PopupWindowBackgroundState;
+			global::KProgressHUDLib.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Sample.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::KProgressHUDLib.Resource.Styleable.RecycleListView = global::Sample.Resource.Styleable.RecycleListView;
+			global::KProgressHUDLib.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Sample.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::KProgressHUDLib.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Sample.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::KProgressHUDLib.Resource.Styleable.SearchView = global::Sample.Resource.Styleable.SearchView;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_android_focusable = global::Sample.Resource.Styleable.SearchView_android_focusable;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_android_imeOptions = global::Sample.Resource.Styleable.SearchView_android_imeOptions;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_android_inputType = global::Sample.Resource.Styleable.SearchView_android_inputType;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_android_maxWidth = global::Sample.Resource.Styleable.SearchView_android_maxWidth;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_closeIcon = global::Sample.Resource.Styleable.SearchView_closeIcon;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_commitIcon = global::Sample.Resource.Styleable.SearchView_commitIcon;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_defaultQueryHint = global::Sample.Resource.Styleable.SearchView_defaultQueryHint;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_goIcon = global::Sample.Resource.Styleable.SearchView_goIcon;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_iconifiedByDefault = global::Sample.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_layout = global::Sample.Resource.Styleable.SearchView_layout;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_queryBackground = global::Sample.Resource.Styleable.SearchView_queryBackground;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_queryHint = global::Sample.Resource.Styleable.SearchView_queryHint;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_searchHintIcon = global::Sample.Resource.Styleable.SearchView_searchHintIcon;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_searchIcon = global::Sample.Resource.Styleable.SearchView_searchIcon;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_submitBackground = global::Sample.Resource.Styleable.SearchView_submitBackground;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_suggestionRowLayout = global::Sample.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::KProgressHUDLib.Resource.Styleable.SearchView_voiceIcon = global::Sample.Resource.Styleable.SearchView_voiceIcon;
+			global::KProgressHUDLib.Resource.Styleable.Spinner = global::Sample.Resource.Styleable.Spinner;
+			global::KProgressHUDLib.Resource.Styleable.Spinner_android_dropDownWidth = global::Sample.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::KProgressHUDLib.Resource.Styleable.Spinner_android_entries = global::Sample.Resource.Styleable.Spinner_android_entries;
+			global::KProgressHUDLib.Resource.Styleable.Spinner_android_popupBackground = global::Sample.Resource.Styleable.Spinner_android_popupBackground;
+			global::KProgressHUDLib.Resource.Styleable.Spinner_android_prompt = global::Sample.Resource.Styleable.Spinner_android_prompt;
+			global::KProgressHUDLib.Resource.Styleable.Spinner_popupTheme = global::Sample.Resource.Styleable.Spinner_popupTheme;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat = global::Sample.Resource.Styleable.SwitchCompat;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_android_textOff = global::Sample.Resource.Styleable.SwitchCompat_android_textOff;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_android_textOn = global::Sample.Resource.Styleable.SwitchCompat_android_textOn;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_android_thumb = global::Sample.Resource.Styleable.SwitchCompat_android_thumb;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_showText = global::Sample.Resource.Styleable.SwitchCompat_showText;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_splitTrack = global::Sample.Resource.Styleable.SwitchCompat_splitTrack;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_switchMinWidth = global::Sample.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_switchPadding = global::Sample.Resource.Styleable.SwitchCompat_switchPadding;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Sample.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Sample.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_thumbTint = global::Sample.Resource.Styleable.SwitchCompat_thumbTint;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_thumbTintMode = global::Sample.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_track = global::Sample.Resource.Styleable.SwitchCompat_track;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_trackTint = global::Sample.Resource.Styleable.SwitchCompat_trackTint;
+			global::KProgressHUDLib.Resource.Styleable.SwitchCompat_trackTintMode = global::Sample.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance = global::Sample.Resource.Styleable.TextAppearance;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_fontFamily = global::Sample.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_shadowColor = global::Sample.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_shadowDx = global::Sample.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_shadowDy = global::Sample.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_shadowRadius = global::Sample.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_textColor = global::Sample.Resource.Styleable.TextAppearance_android_textColor;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_textColorHint = global::Sample.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_textColorLink = global::Sample.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_textSize = global::Sample.Resource.Styleable.TextAppearance_android_textSize;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_textStyle = global::Sample.Resource.Styleable.TextAppearance_android_textStyle;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_android_typeface = global::Sample.Resource.Styleable.TextAppearance_android_typeface;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_fontFamily = global::Sample.Resource.Styleable.TextAppearance_fontFamily;
+			global::KProgressHUDLib.Resource.Styleable.TextAppearance_textAllCaps = global::Sample.Resource.Styleable.TextAppearance_textAllCaps;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar = global::Sample.Resource.Styleable.Toolbar;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_android_gravity = global::Sample.Resource.Styleable.Toolbar_android_gravity;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_android_minHeight = global::Sample.Resource.Styleable.Toolbar_android_minHeight;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_buttonGravity = global::Sample.Resource.Styleable.Toolbar_buttonGravity;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_collapseContentDescription = global::Sample.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_collapseIcon = global::Sample.Resource.Styleable.Toolbar_collapseIcon;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_contentInsetEnd = global::Sample.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Sample.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_contentInsetLeft = global::Sample.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_contentInsetRight = global::Sample.Resource.Styleable.Toolbar_contentInsetRight;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_contentInsetStart = global::Sample.Resource.Styleable.Toolbar_contentInsetStart;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Sample.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_logo = global::Sample.Resource.Styleable.Toolbar_logo;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_logoDescription = global::Sample.Resource.Styleable.Toolbar_logoDescription;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_maxButtonHeight = global::Sample.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_navigationContentDescription = global::Sample.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_navigationIcon = global::Sample.Resource.Styleable.Toolbar_navigationIcon;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_popupTheme = global::Sample.Resource.Styleable.Toolbar_popupTheme;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_subtitle = global::Sample.Resource.Styleable.Toolbar_subtitle;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Sample.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_subtitleTextColor = global::Sample.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_title = global::Sample.Resource.Styleable.Toolbar_title;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_titleMargin = global::Sample.Resource.Styleable.Toolbar_titleMargin;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_titleMarginBottom = global::Sample.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_titleMarginEnd = global::Sample.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_titleMarginStart = global::Sample.Resource.Styleable.Toolbar_titleMarginStart;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_titleMarginTop = global::Sample.Resource.Styleable.Toolbar_titleMarginTop;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_titleMargins = global::Sample.Resource.Styleable.Toolbar_titleMargins;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_titleTextAppearance = global::Sample.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::KProgressHUDLib.Resource.Styleable.Toolbar_titleTextColor = global::Sample.Resource.Styleable.Toolbar_titleTextColor;
+			global::KProgressHUDLib.Resource.Styleable.View = global::Sample.Resource.Styleable.View;
+			global::KProgressHUDLib.Resource.Styleable.View_android_focusable = global::Sample.Resource.Styleable.View_android_focusable;
+			global::KProgressHUDLib.Resource.Styleable.View_android_theme = global::Sample.Resource.Styleable.View_android_theme;
+			global::KProgressHUDLib.Resource.Styleable.View_paddingEnd = global::Sample.Resource.Styleable.View_paddingEnd;
+			global::KProgressHUDLib.Resource.Styleable.View_paddingStart = global::Sample.Resource.Styleable.View_paddingStart;
+			global::KProgressHUDLib.Resource.Styleable.View_theme = global::Sample.Resource.Styleable.View_theme;
+			global::KProgressHUDLib.Resource.Styleable.ViewBackgroundHelper = global::Sample.Resource.Styleable.ViewBackgroundHelper;
+			global::KProgressHUDLib.Resource.Styleable.ViewBackgroundHelper_android_background = global::Sample.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::KProgressHUDLib.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Sample.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::KProgressHUDLib.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Sample.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::KProgressHUDLib.Resource.Styleable.ViewStubCompat = global::Sample.Resource.Styleable.ViewStubCompat;
+			global::KProgressHUDLib.Resource.Styleable.ViewStubCompat_android_id = global::Sample.Resource.Styleable.ViewStubCompat_android_id;
+			global::KProgressHUDLib.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Sample.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::KProgressHUDLib.Resource.Styleable.ViewStubCompat_android_layout = global::Sample.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -1187,44 +2717,44 @@ namespace Sample
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131492939;
-			
-			// aapt resource value: 0x7f0c004c
-			public const int abc_background_cache_hint_selector_material_light = 2131492940;
-			
 			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_borderless_text_material = 2131492941;
+			public const int abc_background_cache_hint_selector_material_dark = 2131492941;
 			
 			// aapt resource value: 0x7f0c004e
-			public const int abc_btn_colored_text_material = 2131492942;
+			public const int abc_background_cache_hint_selector_material_light = 2131492942;
 			
 			// aapt resource value: 0x7f0c004f
-			public const int abc_color_highlight_material = 2131492943;
+			public const int abc_btn_colored_borderless_text_material = 2131492943;
 			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_dark = 2131492944;
+			public const int abc_btn_colored_text_material = 2131492944;
 			
 			// aapt resource value: 0x7f0c0051
-			public const int abc_hint_foreground_material_light = 2131492945;
+			public const int abc_color_highlight_material = 2131492945;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int abc_hint_foreground_material_dark = 2131492946;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int abc_hint_foreground_material_light = 2131492947;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int abc_input_method_navigation_guard = 2131492864;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_dark = 2131492946;
-			
-			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_disable_only_material_light = 2131492947;
-			
 			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_dark = 2131492948;
+			public const int abc_primary_text_disable_only_material_dark = 2131492948;
 			
 			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_material_light = 2131492949;
+			public const int abc_primary_text_disable_only_material_light = 2131492949;
 			
 			// aapt resource value: 0x7f0c0056
-			public const int abc_search_url_text = 2131492950;
+			public const int abc_primary_text_material_dark = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int abc_primary_text_material_light = 2131492951;
+			
+			// aapt resource value: 0x7f0c0058
+			public const int abc_search_url_text = 2131492952;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int abc_search_url_text_normal = 2131492865;
@@ -1235,29 +2765,29 @@ namespace Sample
 			// aapt resource value: 0x7f0c0003
 			public const int abc_search_url_text_selected = 2131492867;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_dark = 2131492951;
-			
-			// aapt resource value: 0x7f0c0058
-			public const int abc_secondary_text_material_light = 2131492952;
-			
 			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_btn_checkable = 2131492953;
+			public const int abc_secondary_text_material_dark = 2131492953;
 			
 			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_default = 2131492954;
+			public const int abc_secondary_text_material_light = 2131492954;
 			
 			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_edittext = 2131492955;
+			public const int abc_tint_btn_checkable = 2131492955;
 			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_seek_thumb = 2131492956;
+			public const int abc_tint_default = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_spinner = 2131492957;
+			public const int abc_tint_edittext = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			public const int abc_tint_seek_thumb = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int abc_tint_spinner = 2131492959;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int abc_tint_switch_track = 2131492960;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int accent_material_dark = 2131492868;
@@ -1301,20 +2831,20 @@ namespace Sample
 			// aapt resource value: 0x7f0c0011
 			public const int button_material_light = 2131492881;
 			
+			// aapt resource value: 0x7f0c004b
+			public const int colorAccent = 2131492939;
+			
 			// aapt resource value: 0x7f0c0049
-			public const int colorAccent = 2131492937;
+			public const int colorPrimary = 2131492937;
 			
-			// aapt resource value: 0x7f0c0047
-			public const int colorPrimary = 2131492935;
-			
-			// aapt resource value: 0x7f0c0048
-			public const int colorPrimaryDark = 2131492936;
+			// aapt resource value: 0x7f0c004a
+			public const int colorPrimaryDark = 2131492938;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int design_bottom_navigation_shadow_color = 2131492924;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c0061
+			public const int design_error = 2131492961;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int design_fab_shadow_end_color = 2131492925;
@@ -1340,8 +2870,8 @@ namespace Sample
 			// aapt resource value: 0x7f0c0044
 			public const int design_snackbar_background_color = 2131492932;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c0062
+			public const int design_tint_password_toggle = 2131492962;
 			
 			// aapt resource value: 0x7f0c0012
 			public const int dim_foreground_disabled_material_dark = 2131492882;
@@ -1370,8 +2900,14 @@ namespace Sample
 			// aapt resource value: 0x7f0c001a
 			public const int highlighted_text_material_light = 2131492890;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int ic_launcher_background = 2131492938;
+			// aapt resource value: 0x7f0c004c
+			public const int ic_launcher_background = 2131492940;
+			
+			// aapt resource value: 0x7f0c0047
+			public const int kprogresshud_default_color = 2131492935;
+			
+			// aapt resource value: 0x7f0c0048
+			public const int kprogresshud_grey_color = 2131492936;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int material_blue_grey_800 = 2131492891;
@@ -1466,11 +3002,11 @@ namespace Sample
 			// aapt resource value: 0x7f0c0036
 			public const int switch_thumb_disabled_material_light = 2131492918;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
+			// aapt resource value: 0x7f0c0063
+			public const int switch_thumb_material_dark = 2131492963;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			// aapt resource value: 0x7f0c0064
+			public const int switch_thumb_material_light = 2131492964;
 			
 			// aapt resource value: 0x7f0c0037
 			public const int switch_thumb_normal_material_dark = 2131492919;
@@ -2227,26 +3763,26 @@ namespace Sample
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020080
-			public const int avd_hide_password_1 = 2130837632;
-			
 			// aapt resource value: 0x7f020081
-			public const int avd_hide_password_2 = 2130837633;
+			public const int avd_hide_password_1 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int avd_hide_password_3 = 2130837634;
+			public const int avd_hide_password_2 = 2130837634;
+			
+			// aapt resource value: 0x7f020083
+			public const int avd_hide_password_3 = 2130837635;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020083
-			public const int avd_show_password_1 = 2130837635;
-			
 			// aapt resource value: 0x7f020084
-			public const int avd_show_password_2 = 2130837636;
+			public const int avd_show_password_1 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int avd_show_password_3 = 2130837637;
+			public const int avd_show_password_2 = 2130837637;
+			
+			// aapt resource value: 0x7f020086
+			public const int avd_show_password_3 = 2130837638;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2330,52 +3866,55 @@ namespace Sample
 			public const int ic_android_blue_dark_18dp = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int navigation_empty_icon = 2130837616;
+			public const int kprogresshud_spinner = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notification_action_background = 2130837617;
+			public const int navigation_empty_icon = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int notification_bg = 2130837618;
+			public const int notification_action_background = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int notification_bg_low = 2130837619;
+			public const int notification_bg = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int notification_bg_low_normal = 2130837620;
+			public const int notification_bg_low = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int notification_bg_low_pressed = 2130837621;
+			public const int notification_bg_low_normal = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int notification_bg_normal = 2130837622;
+			public const int notification_bg_low_pressed = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int notification_bg_normal_pressed = 2130837623;
+			public const int notification_bg_normal = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int notification_icon_background = 2130837624;
-			
-			// aapt resource value: 0x7f02007e
-			public const int notification_template_icon_bg = 2130837630;
-			
-			// aapt resource value: 0x7f02007f
-			public const int notification_template_icon_low_bg = 2130837631;
+			public const int notification_bg_normal_pressed = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int notification_tile_bg = 2130837625;
+			public const int notification_icon_background = 2130837625;
+			
+			// aapt resource value: 0x7f02007f
+			public const int notification_template_icon_bg = 2130837631;
+			
+			// aapt resource value: 0x7f020080
+			public const int notification_template_icon_low_bg = 2130837632;
 			
 			// aapt resource value: 0x7f02007a
-			public const int notify_panel_notification_icon_bg = 2130837626;
+			public const int notification_tile_bg = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int spin_animation = 2130837627;
+			public const int notify_panel_notification_icon_bg = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int tooltip_frame_dark = 2130837628;
+			public const int spin_animation = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int tooltip_frame_light = 2130837629;
+			public const int tooltip_frame_dark = 2130837629;
+			
+			// aapt resource value: 0x7f02007e
+			public const int tooltip_frame_light = 2130837630;
 			
 			static Drawable()
 			{
@@ -2408,8 +3947,8 @@ namespace Sample
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int action0 = 2131230886;
+			// aapt resource value: 0x7f0800a9
+			public const int action0 = 2131230889;
 			
 			// aapt resource value: 0x7f08007c
 			public const int action_bar = 2131230844;
@@ -2432,17 +3971,17 @@ namespace Sample
 			// aapt resource value: 0x7f08005a
 			public const int action_bar_title = 2131230810;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int action_container = 2131230883;
+			// aapt resource value: 0x7f0800a6
+			public const int action_container = 2131230886;
 			
 			// aapt resource value: 0x7f08007d
 			public const int action_context_bar = 2131230845;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int action_divider = 2131230890;
+			// aapt resource value: 0x7f0800ad
+			public const int action_divider = 2131230893;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int action_image = 2131230884;
+			// aapt resource value: 0x7f0800a7
+			public const int action_image = 2131230887;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2459,11 +3998,11 @@ namespace Sample
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int action_text = 2131230885;
+			// aapt resource value: 0x7f0800a8
+			public const int action_text = 2131230888;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int actions = 2131230899;
+			// aapt resource value: 0x7f0800b6
+			public const int actions = 2131230902;
 			
 			// aapt resource value: 0x7f08005d
 			public const int activity_chooser_view_content = 2131230813;
@@ -2489,6 +4028,9 @@ namespace Sample
 			// aapt resource value: 0x7f080044
 			public const int auto = 2131230788;
 			
+			// aapt resource value: 0x7f0800a3
+			public const int background = 2131230883;
+			
 			// aapt resource value: 0x7f080091
 			public const int bar_determinate = 2131230865;
 			
@@ -2504,8 +4046,8 @@ namespace Sample
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int cancel_action = 2131230887;
+			// aapt resource value: 0x7f0800aa
+			public const int cancel_action = 2131230890;
 			
 			// aapt resource value: 0x7f080045
 			public const int center = 2131230789;
@@ -2519,8 +4061,8 @@ namespace Sample
 			// aapt resource value: 0x7f080073
 			public const int checkbox = 2131230835;
 			
-			// aapt resource value: 0x7f0800af
-			public const int chronometer = 2131230895;
+			// aapt resource value: 0x7f0800b2
+			public const int chronometer = 2131230898;
 			
 			// aapt resource value: 0x7f08004e
 			public const int clip_horizontal = 2131230798;
@@ -2576,6 +4118,9 @@ namespace Sample
 			// aapt resource value: 0x7f08008d
 			public const int detail_indeterminate = 2131230861;
 			
+			// aapt resource value: 0x7f0800a5
+			public const int details_label = 2131230885;
+			
 			// aapt resource value: 0x7f08008f
 			public const int determinate = 2131230863;
 			
@@ -2591,8 +4136,8 @@ namespace Sample
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int end_padder = 2131230901;
+			// aapt resource value: 0x7f0800b8
+			public const int end_padder = 2131230904;
 			
 			// aapt resource value: 0x7f08003f
 			public const int enterAlways = 2131230783;
@@ -2639,8 +4184,8 @@ namespace Sample
 			// aapt resource value: 0x7f080062
 			public const int icon = 2131230818;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int icon_group = 2131230900;
+			// aapt resource value: 0x7f0800b7
+			public const int icon_group = 2131230903;
 			
 			// aapt resource value: 0x7f08003a
 			public const int ifRoom = 2131230778;
@@ -2651,14 +4196,17 @@ namespace Sample
 			// aapt resource value: 0x7f08008b
 			public const int indeterminate = 2131230859;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int info = 2131230896;
+			// aapt resource value: 0x7f0800b3
+			public const int info = 2131230899;
 			
 			// aapt resource value: 0x7f080059
 			public const int italic = 2131230809;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int label = 2131230884;
 			
 			// aapt resource value: 0x7f08008c
 			public const int label_indeterminate = 2131230860;
@@ -2681,14 +4229,14 @@ namespace Sample
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int masked = 2131230904;
+			// aapt resource value: 0x7f0800bb
+			public const int masked = 2131230907;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int media_actions = 2131230889;
+			// aapt resource value: 0x7f0800ac
+			public const int media_actions = 2131230892;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int message = 2131230902;
+			// aapt resource value: 0x7f0800b9
+			public const int message = 2131230905;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2711,14 +4259,14 @@ namespace Sample
 			// aapt resource value: 0x7f08001e
 			public const int normal = 2131230750;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int notification_background = 2131230898;
+			// aapt resource value: 0x7f0800b5
+			public const int notification_background = 2131230901;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int notification_main_column = 2131230892;
+			// aapt resource value: 0x7f0800af
+			public const int notification_main_column = 2131230895;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int notification_main_column_container = 2131230891;
+			// aapt resource value: 0x7f0800ae
+			public const int notification_main_column_container = 2131230894;
 			
 			// aapt resource value: 0x7f08004c
 			public const int parallax = 2131230796;
@@ -2744,11 +4292,11 @@ namespace Sample
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int right_icon = 2131230897;
+			// aapt resource value: 0x7f0800b4
+			public const int right_icon = 2131230900;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int right_side = 2131230893;
+			// aapt resource value: 0x7f0800b0
+			public const int right_side = 2131230896;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2810,8 +4358,8 @@ namespace Sample
 			// aapt resource value: 0x7f08008a
 			public const int select_dialog_listview = 2131230858;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int selected = 2131230905;
+			// aapt resource value: 0x7f0800bc
+			public const int selected = 2131230908;
 			
 			// aapt resource value: 0x7f080074
 			public const int shortcut = 2131230836;
@@ -2855,8 +4403,8 @@ namespace Sample
 			// aapt resource value: 0x7f08004b
 			public const int start = 2131230795;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int status_bar_latest_event_content = 2131230888;
+			// aapt resource value: 0x7f0800ab
+			public const int status_bar_latest_event_content = 2131230891;
 			
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
@@ -2891,8 +4439,8 @@ namespace Sample
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int time = 2131230894;
+			// aapt resource value: 0x7f0800b1
+			public const int time = 2131230897;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -2939,8 +4487,8 @@ namespace Sample
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int visible = 2131230903;
+			// aapt resource value: 0x7f0800ba
+			public const int visible = 2131230906;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3128,64 +4676,67 @@ namespace Sample
 			public const int design_text_input_password_icon = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_action = 2130968617;
+			public const int kprogresshud_hud = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action_tombstone = 2130968618;
+			public const int notification_action = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_media_action = 2130968619;
+			public const int notification_action_tombstone = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_cancel_action = 2130968620;
+			public const int notification_media_action = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_big_media = 2130968621;
+			public const int notification_media_cancel_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media_custom = 2130968622;
+			public const int notification_template_big_media = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_narrow = 2130968623;
+			public const int notification_template_big_media_custom = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow_custom = 2130968624;
+			public const int notification_template_big_media_narrow = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_custom_big = 2130968625;
+			public const int notification_template_big_media_narrow_custom = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_icon_group = 2130968626;
+			public const int notification_template_custom_big = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_lines_media = 2130968627;
+			public const int notification_template_icon_group = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_media = 2130968628;
+			public const int notification_template_lines_media = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media_custom = 2130968629;
+			public const int notification_template_media = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_part_chronometer = 2130968630;
+			public const int notification_template_media_custom = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_time = 2130968631;
+			public const int notification_template_part_chronometer = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int select_dialog_item_material = 2130968632;
+			public const int notification_template_part_time = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int select_dialog_multichoice_material = 2130968633;
+			public const int select_dialog_item_material = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_singlechoice_material = 2130968634;
+			public const int select_dialog_multichoice_material = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int support_simple_spinner_dropdown_item = 2130968635;
+			public const int select_dialog_singlechoice_material = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int tooltip = 2130968636;
+			public const int support_simple_spinner_dropdown_item = 2130968636;
+			
+			// aapt resource value: 0x7f04003d
+			public const int tooltip = 2130968637;
 			
 			static Layout()
 			{
@@ -3309,11 +4860,11 @@ namespace Sample
 			// aapt resource value: 0x7f090010
 			public const int abc_toolbar_collapse_description = 2131296272;
 			
-			// aapt resource value: 0x7f090028
-			public const int action_settings = 2131296296;
+			// aapt resource value: 0x7f090029
+			public const int action_settings = 2131296297;
 			
-			// aapt resource value: 0x7f090027
-			public const int app_name = 2131296295;
+			// aapt resource value: 0x7f090028
+			public const int app_name = 2131296296;
 			
 			// aapt resource value: 0x7f09001e
 			public const int appbar_scrolling_view_behavior = 2131296286;
@@ -3323,6 +4874,9 @@ namespace Sample
 			
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;
+			
+			// aapt resource value: 0x7f090027
+			public const int hello = 2131296295;
 			
 			// aapt resource value: 0x7f090021
 			public const int password_toggle_content_description = 2131296289;
